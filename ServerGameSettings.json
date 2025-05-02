@@ -92,8 +92,8 @@
     "ReviveCancelDelay": 5.0
   },
   "UnitStatModifiers_Global": {
-    "MaxHealthModifier": 1.5,
-    "PowerModifier": 1.5,
+    "MaxHealthModifier": 1.0,
+    "PowerModifier": 1.2,
     "LevelIncrease": 0
   },
   "UnitStatModifiers_VBlood": {
