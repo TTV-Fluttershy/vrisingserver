@@ -2,7 +2,7 @@
   "GameDifficulty": "Normal",
   "GameModeType": "PvP",
   "CastleDamageMode": "Never",
-  "SiegeWeaponHealth": "High",
+  "SiegeWeaponHealth": "VeryHigh",
   "PlayerDamageMode": "Always",
   "CastleHeartDamageMode": "CanBeDestroyedByPlayers",
   "PvPProtectionMode": "Medium",
