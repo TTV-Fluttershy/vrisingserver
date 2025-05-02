@@ -97,8 +97,8 @@
     "LevelIncrease": 0
   },
   "UnitStatModifiers_VBlood": {
-    "MaxHealthModifier": 1.8,
-    "PowerModifier": 2.2,
+    "MaxHealthModifier": 1.5,
+    "PowerModifier": 2.0,
     "LevelIncrease": 0
   },
   "EquipmentStatModifiers_Global": {
