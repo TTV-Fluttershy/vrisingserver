@@ -19,7 +19,7 @@
   "FreeCastleRaid": false,
   "FreeCastleClaim": false,
   "FreeCastleDestroy": false,
-  "InactivityKillEnabled": true,
+  "InactivityKillEnabled": false,
   "InactivityKillTimeMin": 3600,
   "InactivityKillTimeMax": 604800,
   "InactivityKillSafeTimeAddition": 172800,
