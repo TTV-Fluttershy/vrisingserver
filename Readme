@@ -1,5 +1,5 @@
 Do not use OLD or BASELINE files.
-Import Serverhostsettings,Servergamesettings and adminlist.txt into server settings folder.
+Import Serverhostsettings.json,Servergamesettings.json and adminlist.txt into server settings folder.
 Path:
 VRisingDedicatedServer/VrisingServer_Data/StreamingAssets/Settings
 
