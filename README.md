@@ -1,5 +1,9 @@
 # "The Barn" vrising server
 
+Set server name in the Docker compose file!
+
+### Docker compose file:
+`./docker-compose.yml`
 ### Settings path:
 `./persistendata/Settings/`
 
