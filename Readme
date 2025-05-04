@@ -3,9 +3,6 @@ VRisingDedicatedServer/VrisingServer_Data/StreamingAssets/Settings
 
 Import/Replace Serverhostsettings.json, Servergamesettings.json and adminlist.txt in server settings folder.
 
-Check server ports in the OLD Serverhostsettings.json are the same as the NEW Serverhostsettings.json
-
-
 
 thanks boss
 
