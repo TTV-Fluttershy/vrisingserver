@@ -1977,3 +1977,32 @@ EOS.Session - Entering ModifySessionAsync!
 Triggering AutoSave 13!
 PersistenceV2 - Finished Saving to 'Z:\mnt\vrising\persistentdata\Saves\v4\world1\AutoSave_13.save.gz'. Total Persistent ChunkCount 3385. Total Save Size: 8740774 Total Uncompressed Save Size: 42615681 Bytes System Data Size: 277544 Bytes World Data Size: 4194313 Bytes Header Data Size: 819670 Bytes, (Job 0 ArchetypeCount 27, ChunkCount 1881), (Job 1 ArchetypeCount 126, ChunkCount 876), (Job 2 ArchetypeCount 446, ChunkCount 628), (Job 3 ArchetypeCount 0, ChunkCount 0)
 Admin Auth request from User: 76561198141996810, Character: Flutter
+SteamNetworking - SteamNetConnections.ConnectionUpdate: k_ESteamNetworkingConnectionState_ProblemDetectedLocally, 3889924129, 131073
+SteamServerTransport - Update 3889924129 - k_ESteamNetworkingConnectionState_ProblemDetectedLocally
+User '{Steam 3889924129}' disconnected. approvedUserIndex: 3 Reason: Timeout k_ESteamNetworkingConnectionState_ProblemDetectedLocally
+PlatformSystemBase - EndAuthSession platformId: 76561198141996810
+EOS.Session - Entering UnregisterUser!
+SteamNetworking - SteamNetConnections.ConnectionUpdate: k_ESteamNetworkingConnectionState_None, 3889924129, 131073
+SteamServerTransport - Update 3889924129 - k_ESteamNetworkingConnectionState_None
+EOS user unregistered from session successfully!
+EOS.Session - Entering ModifySessionAsync!
+src\steamnetworkingsockets\clientlib\steamnetworkingsockets_lowlevel.cpp (825) : Assertion Failed: GetBestRoute2 failed with result 50 for address '104.205.153.130:0'
+src\steamnetworkingsockets\clientlib\steamnetworkingsockets_lowlevel.cpp (825) : Assertion Failed: GetBestRoute2 failed with result 50 for address '208.98.223.75:0'
+SteamNetworking - SteamNetConnections.ConnectionUpdate: k_ESteamNetworkingConnectionState_Connecting, 4061693990, 131073
+SteamServerTransport - Update 4061693990 - k_ESteamNetworkingConnectionState_Connecting
+SteamNetworking - SteamNetConnections.ConnectionUpdate: k_ESteamNetworkingConnectionState_Connected, 4061693990, 131073
+SteamServerTransport - Update 4061693990 - k_ESteamNetworkingConnectionState_Connected
+PlatformSystemBase - BeginAuthSession for SteamID: 76561198141996810 Result: k_EBeginAuthSessionResultOK
+EOS.Session - Entering RegisterUser!
+NetEndPoint '{Steam 4061693990}' reconnect was approved. approvedUserIndex: 3 HasLocalCharacter: True Hail Message Size: 401 Version: 24 PlatformId: 76561198141996810 UserIndex: 2 ShouldCreateCharacter: False IsAdmin: False Length: 401
+EOS user registered to session successfully!
+PlatformSystemBase - OnValidateAuthTicketResponse for SteamID: 76561198141996810, Response: k_EAuthSessionResponseOK
+PlatformSystemBase - UserHasLicenseForApp for SteamID: 76561198141996810, Owner: 76561198141996810, Result: k_EUserHasLicenseResultHasLicense, UserContentFlags: None
+User '{Steam 4061693990}' '76561198141996810', approvedUserIndex: 3, Character: 'Flutter' connected as ID '2,1', Entity '325014,1'.
+EOS.Session - Entering ModifySessionAsync!
+Admin Auth request from User: 76561198141996810, Character: Flutter
+Spawned character at chunk '11,11' for user 76561198997034467 (Character: Sloshy) entity '324983,1' hasCastleSpawn: True netherSpawnPositionEntity: 317976 spawnLocation: -1408:5:-1285.5 firstTimeSpawn: False
+User 76561198997034467 (Character: Sloshy) has been hidden due to waiting for content!
+User 76561198997034467 (Character: Sloshy) has begun its spawn fadeout!
+Triggering AutoSave 14!
+PersistenceV2 - Finished Saving to 'Z:\mnt\vrising\persistentdata\Saves\v4\world1\AutoSave_14.save.gz'. Total Persistent ChunkCount 3334. Total Save Size: 8710156 Total Uncompressed Save Size: 42346858 Bytes System Data Size: 276848 Bytes World Data Size: 4194313 Bytes Header Data Size: 819670 Bytes, (Job 0 ArchetypeCount 24, ChunkCount 1878), (Job 1 ArchetypeCount 117, ChunkCount 836), (Job 2 ArchetypeCount 439, ChunkCount 620), (Job 3 ArchetypeCount 0, ChunkCount 0)
