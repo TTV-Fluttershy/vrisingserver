@@ -3,7 +3,7 @@ services:
     image: trueosiris/vrising
     environment:
       - TZ=Europe/Paris
-      - SERVERNAME=[NA-C] BOOSTED 24/7 |PVP|WEEKEND RAIDS NOON TO MIDNIGHT|2xMagic|2xLoot|Normal|1.1|May3 
+      - SERVERNAME=[NA-C] BOOSTED 24/7 |PVP|WEEKEND RAIDS NOON TO MIDNIGHT|MAY3|2xRates|Normal|1.1
     volumes:
       - type: bind
         source: ./server
