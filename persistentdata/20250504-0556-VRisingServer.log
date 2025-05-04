@@ -1,0 +1,1841 @@
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+Initialize engine version: 2022.3.58f1 (ed7f6eacb62e)
+[Subsystems] Discovering subsystems at path Z:/mnt/vrising/server/VRisingServer_Data/UnitySubsystems
+Forcing GfxDevice: Null
+GfxDevice: creating device client; threaded=0; jobified=0
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+There is no texture data available to upload.
+Microsoft Media Foundation video decoding to texture disabled: graphics device is Null, only Direct3D 11 and Direct3D 12 (only on desktop) are supported for hardware-accelerated video decoding.
+There is no texture data available to upload.
+There is no texture data available to upload.
+There is no texture data available to upload.
+There is no texture data available to upload.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+UnloadTime: 3.634200 ms
+AutomaticWorldBootstrap.Initialize
+Set a new SaveFileManager 'Stunlock.Platform.PC.SaveFileManagerPC'
+Loaded VersionDataSettings:
+{
+  "NetworkVersion": 24,
+  "PersistenceVersion": 4
+}
+Loaded GeneralGameSettings:
+{
+  "JobWorkerCount": 4,
+  "EnableDebugging": false,
+  "SteamLogLevel": 5,
+  "SteamCaptureAPILogs": false,
+  "SteamCaptureNetworkingLogs": false
+}
+PersistentDataPath: /mnt/vrising/persistentdata root: /mnt/vrising/persistentdata\Saves
+PersistenceVersionOverride value found from VersionDataSettings: 4
+Persistence Version initialized as: 4
+ProjectM.ServerHostSettings - 'Name' ('System.String') overridden by Command Line Parameter '-serverName' - New value: "THE BARN" MPL 18+ ROLEPLAY CANADIAN PONIES
+Loaded ServerHostSettings:
+{
+  "Name": "\"THE BARN\" MPL 18+ ROLEPLAY CANADIAN PONIES",
+  "Description": "24/7 SERVER ACTIVE ADMINS|Weekend raids noon to midnight MST|2xLoot|2xMagic|MAX CASTLE TILE LIMIT|2 CASTLE HEART|2xBLOODMOON|FAST CRAFTING|1.5xENVIRONMENTALHAZARDS|24h POST RAID GRACE PERIOD|MAY1|NO WIPE|",
+  "Port": 9876,
+  "FallbackPort": 9878,
+  "QueryPort": 9877,
+  "Address": null,
+  "MaxConnectedUsers": 100,
+  "MaxConnectedAdmins": 10,
+  "MinFreeSlotsNeededForNewUsers": 0,
+  "ServerFps": 30,
+  "AIUpdatesPerFrame": 200,
+  "Password": "",
+  "Secure": true,
+  "Authenticate": true,
+  "ListOnSteam": true,
+  "ServerBranch": "",
+  "GameSettingsPreset": "",
+  "GameDifficultyPreset": "",
+  "SaveName": "world1",
+  "SaveFileName": "",
+  "AutoSaveCount": 10,
+  "AutoSaveInterval": 600,
+  "CompressSaveFiles": true,
+  "AutoSaveSmartKeep": "10:1:1,30:0:1,60:0:1,120:0:1,180:0:1,240:0:1,360:0:1,720:0:1,1440:0:1,52560000:99:0",
+  "RunPersistenceTestsOnSave": false,
+  "DumpPersistenceSummaryOnSave": false,
+  "StorePersistenceDebugData": false,
+  "GiveStarterItems": false,
+  "LogAllNetworkEvents": false,
+  "LogAdminEvents": true,
+  "LogDebugEvents": true,
+  "AdminOnlyDebugEvents": true,
+  "EveryoneIsAdmin": false,
+  "DisableDebugEvents": false,
+  "EnableDangerousDebugEvents": false,
+  "TrackArchetypeCreationsOnStartup": false,
+  "ServerStartTimeOffset": 0.0,
+  "PersistenceVersionOverride": -1,
+  "LanMode": false,
+  "LowerFPSWhenEmpty": false,
+  "LowerFPSWhenEmptyValue": 1,
+  "UseTeleportPlayersOutOfCollisionFix": true,
+  "RemoteBansURL": "",
+  "RemoteAdminsURL": "",
+  "ResetDaysInterval": 0,
+  "DayOfReset": -1,
+  "AFKKickType": 0,
+  "AFKKickDuration": 1,
+  "AFKKickWarningDuration": 14,
+  "AFKKickPlayerRatio": 0.5,
+  "ListOnEOS": true,
+  "EosLogLevel": -1,
+  "HideIPAddress": false,
+  "EnableBacktraceANR": false,
+  "AnalyticsEnabled": true,
+  "AnalyticsEnvironment": "prod",
+  "AnalyticsDebug": false,
+  "UseDoubleTransportLayer": true,
+  "PrivateGame": false,
+  "SafeReconnectTime": 300.0,
+  "SafeReconnectSlots": 10,
+  "DisableAfterReset": false,
+  "UTCOffset": -2147483648,
+  "API": {
+    "Enabled": false,
+    "BindAddress": "*",
+    "BindPort": 9090,
+    "BasePath": "/",
+    "AccessList": "",
+    "PrometheusDelay": 30
+  },
+  "Rcon": {
+    "Enabled": false,
+    "BindAddress": null,
+    "Port": 25575,
+    "Password": "",
+    "TimeoutSeconds": 300,
+    "MaxPasswordTries": 99,
+    "BanMinutes": 0,
+    "SendAuthImmediately": true,
+    "MaxConnectionsPerIp": 20,
+    "MaxConnections": 20,
+    "ExperimentalCommandsEnabled": false
+  }
+}
+Loaded ServerGameSettings:
+{
+  "GameDifficulty": 1,
+  "GameModeType": 1,
+  "CastleDamageMode": 0,
+  "SiegeWeaponHealth": 4,
+  "PlayerDamageMode": 0,
+  "CastleHeartDamageMode": 1,
+  "PvPProtectionMode": 3,
+  "DeathContainerPermission": 0,
+  "RelicSpawnType": 1,
+  "CanLootEnemyContainers": true,
+  "BloodBoundEquipment": true,
+  "TeleportBoundItems": false,
+  "BatBoundItems": false,
+  "BatBoundShards": false,
+  "AllowGlobalChat": true,
+  "AllWaypointsUnlocked": false,
+  "FreeCastleRaid": false,
+  "FreeCastleClaim": false,
+  "FreeCastleDestroy": false,
+  "InactivityKillEnabled": false,
+  "InactivityKillTimeMin": 3600,
+  "InactivityKillTimeMax": 604800,
+  "InactivityKillSafeTimeAddition": 172800,
+  "InactivityKillTimerMaxItemLevel": 84,
+  "StartingProgressionLevel": 0,
+  "WeaponSlots": 8,
+  "DisableDisconnectedDeadEnabled": true,
+  "DisableDisconnectedDeadTimer": 60,
+  "DisconnectedSunImmunityTime": 300.0,
+  "InventoryStacksModifier": 3.0,
+  "DropTableModifier_General": 3.0,
+  "DropTableModifier_Missions": 3.0,
+  "DropTableModifier_StygianShards": 2.0,
+  "SoulShard_DurabilityLossRate": 1.0,
+  "MaterialYieldModifier_Global": 3.0,
+  "BloodEssenceYieldModifier": 3.0,
+  "JournalVBloodSourceUnitMaxDistance": 25.0,
+  "PvPVampireRespawnModifier": 1.0,
+  "CastleMinimumDistanceInFloors": 2,
+  "ClanSize": 4,
+  "BloodDrainModifier": 1.0,
+  "DurabilityDrainModifier": 2.0,
+  "GarlicAreaStrengthModifier": 3.0,
+  "HolyAreaStrengthModifier": 1.5,
+  "SilverStrengthModifier": 3.0,
+  "SunDamageModifier": 2.0,
+  "CastleDecayRateModifier": 1.0,
+  "CastleBloodEssenceDrainModifier": 0.3,
+  "CastleSiegeTimer": 420.0,
+  "CastleUnderAttackTimer": 60.0,
+  "CastleRaidTimer": 600.0,
+  "CastleRaidProtectionTime": 86400.0,
+  "CastleExposedFreeClaimTimer": 300.0,
+  "CastleRelocationCooldown": 10800.0,
+  "CastleRelocationEnabled": true,
+  "AnnounceSiegeWeaponSpawn": true,
+  "ShowSiegeWeaponMapIcon": false,
+  "BuildCostModifier": 0.8,
+  "RecipeCostModifier": 0.8,
+  "CraftRateModifier": 6.0,
+  "ResearchCostModifier": 0.6,
+  "RefinementCostModifier": 0.8,
+  "RefinementRateModifier": 6.0,
+  "ResearchTimeModifier": 6.0,
+  "DismantleResourceModifier": 1.0,
+  "ServantConvertRateModifier": 6.0,
+  "RepairCostModifier": 0.2,
+  "Death_DurabilityFactorLoss": 0.4,
+  "Death_DurabilityLossFactorAsResources": 1.0,
+  "StarterEquipmentId": 0,
+  "StarterResourcesId": 0,
+  "VBloodUnitSettings": [],
+  "UnlockedAchievements": [],
+  "UnlockedResearchs": [],
+  "GameTimeModifiers": {
+    "DayDurationInSeconds": 1080.0,
+    "DayStartHour": 9,
+    "DayStartMinute": 0,
+    "DayEndHour": 17,
+    "DayEndMinute": 0,
+    "BloodMoonFrequency_Min": 10,
+    "BloodMoonFrequency_Max": 18,
+    "BloodMoonBuff": 1.0
+  },
+  "VampireStatModifiers": {
+    "MaxHealthModifier": 1.5,
+    "PhysicalPowerModifier": 1.2,
+    "SpellPowerModifier": 3.0,
+    "ResourcePowerModifier": 1.0,
+    "SiegePowerModifier": 1.5,
+    "DamageReceivedModifier": 1.0,
+    "ReviveCancelDelay": 5.0
+  },
+  "UnitStatModifiers_Global": {
+    "MaxHealthModifier": 1.0,
+    "PowerModifier": 1.2,
+    "LevelIncrease": 0
+  },
+  "UnitStatModifiers_VBlood": {
+    "MaxHealthModifier": 1.5,
+    "PowerModifier": 2.0,
+    "LevelIncrease": 0
+  },
+  "EquipmentStatModifiers_Global": {
+    "MaxHealthModifier": 1.0,
+    "ResourceYieldModifier": 1.0,
+    "PhysicalPowerModifier": 1.0,
+    "SpellPowerModifier": 1.0,
+    "SiegePowerModifier": 1.0,
+    "MovementSpeedModifier": 1.0
+  },
+  "CastleStatModifiers_Global": {
+    "TickPeriod": 5.0,
+    "SafetyBoxLimit": 1,
+    "EyeStructuresLimit": 1,
+    "TombLimit": 12,
+    "VerminNestLimit": 8,
+    "PrisonCellLimit": 24,
+    "HeartLimits": {
+      "Level1": {
+        "FloorLimit": 50,
+        "ServantLimit": 1,
+        "HeightLimit": 3
+      },
+      "Level2": {
+        "FloorLimit": 140,
+        "ServantLimit": 3,
+        "HeightLimit": 3
+      },
+      "Level3": {
+        "FloorLimit": 240,
+        "ServantLimit": 5,
+        "HeightLimit": 3
+      },
+      "Level4": {
+        "FloorLimit": 360,
+        "ServantLimit": 7,
+        "HeightLimit": 3
+      },
+      "Level5": {
+        "FloorLimit": 800,
+        "ServantLimit": 12,
+        "HeightLimit": 6
+      }
+    },
+    "CastleHeartLimitType": 0,
+    "CastleLimit": 2,
+    "NetherGateLimit": 1,
+    "ThroneOfDarknessLimit": 4,
+    "ArenaStationLimit": 8,
+    "RoutingStationLimit": 10
+  },
+  "PlayerInteractionSettings": {
+    "TimeZone": 0,
+    "VSPlayerWeekdayTime": {
+      "StartHour": 1,
+      "StartMinute": 0,
+      "EndHour": 23,
+      "EndMinute": 59
+    },
+    "VSPlayerWeekendTime": {
+      "StartHour": 1,
+      "StartMinute": 0,
+      "EndHour": 23,
+      "EndMinute": 59
+    },
+    "VSCastleWeekdayTime": {
+      "StartHour": 23,
+      "StartMinute": 40,
+      "EndHour": 23,
+      "EndMinute": 59
+    },
+    "VSCastleWeekendTime": {
+      "StartHour": 12,
+      "StartMinute": 0,
+      "EndHour": 23,
+      "EndMinute": 59
+    }
+  },
+  "TraderModifiers": {
+    "StockModifier": 10.0,
+    "PriceModifier": 1.0,
+    "RestockTimerModifier": 0.25
+  },
+  "WarEventGameSettings": {
+    "Interval": 1,
+    "MajorDuration": 1,
+    "MinorDuration": 1,
+    "WeekdayTime": {
+      "StartHour": 0,
+      "StartMinute": 0,
+      "EndHour": 23,
+      "EndMinute": 59
+    },
+    "WeekendTime": {
+      "StartHour": 0,
+      "StartMinute": 0,
+      "EndHour": 23,
+      "EndMinute": 59
+    },
+    "ScalingPlayers1": {
+      "PointsModifier": 1.0,
+      "DropModifier": 1.0
+    },
+    "ScalingPlayers2": {
+      "PointsModifier": 0.5,
+      "DropModifier": 0.5
+    },
+    "ScalingPlayers3": {
+      "PointsModifier": 0.25,
+      "DropModifier": 0.25
+    },
+    "ScalingPlayers4": {
+      "PointsModifier": 0.25,
+      "DropModifier": 0.25
+    }
+  }
+}
+Bootstrap - Boot Time: 2025-05-04 03:56:55 UTC, Version: VRisingServer v1.1.2.0-r91326-b2 (202504301331) (Build) (Release) (m)
+DEDICATED_SERVER defined.
+UNITY_ASSERTIONS defined.
+UNITY_DOTS_DEBUG defined.
+Burst is Enabled
+System Information:
+processorFrequency: 3700
+deviceModel: Wine (The Wine Project)
+operatingSystem: Windows 7  (6.1.0) 64bit
+processorType: AMD Ryzen Threadripper 3970X 32-Core Processor
+processorCount: 32
+systemMemorySize: 38845
+graphicsDeviceName: Null Device
+graphicsDeviceType: Null
+graphicsDeviceVendor: Unity Technologies
+graphicsDeviceVendorID: 0
+graphicsDeviceVersion: NULL 1.0 [1.0]
+graphicsMemorySize: 128
+graphicsMultiThreaded: False
+graphicsShaderLevel: 30
+maxTextureSize: 4096
+CPU Score: 11100 (WOW)
+Bootstrapping World: Default World
+PlatformSystemBase - - Entering OnCreate!
+Setting breakpad minidump AppID = 1604030
+SteamInternal_SetMinidumpSteamID:  Caching Steam ID:  76561197960265728 [API loaded no]
+PlatformSystemBase -  Setting Product and Modir: V Rising
+PlatformSystemBase -  Server App ID: 1604030
+PlatformSystemBase - Steam GameServer Initialized!
+PlatformSystemBase - Server connected to Steam successfully!
+SteamNetworking - Successfully logged in with the SteamGameServer API. SteamID: 90266200480699412
+EOSPlatformSystem - Entering OnCreate!
+Using EOS Release Deployment ID on LIVE.
+Initialised EosPlatformanager
+Create EOSPlatformManager
+Created platform interface 133785652366896 options 8c080bf03b404418a295102823d7b8dc / ab64e07a0fcb4322a1f415c4c3066894 / 2777d70dd0b44cb3a627f2f49257481b / xyza7891XOJB0gQVbbJNfWsTbrcGdvcg
+PlatformSystemBase - OnPolicyResponse - Game server SteamID: 90266200480699412
+PlatformSystemBase - OnPolicyResponse - Game Server VAC Secure!
+PlatformSystemBase - OnPolicyResponse - Public IP: 70.75.152.64
+Check Host Server - HostServer: False, DedicatedServer: True
+BatchMode Host - CommandLine: Z:\mnt\vrising\server\VRisingServer.exe -persistentDataPath /mnt/vrising/persistentdata -serverName "\"THE BARN\" MPL 18+ ROLEPLAY CANADIAN PONIES" -logFile /mnt/vrising/persistentdata/20250504-0556-VRisingServer.log
+PersistentDataPath: /mnt/vrising/persistentdata root: /mnt/vrising/persistentdata\Saves
+Unable to find SaveDirectory: Z:\mnt\vrising\persistentdata\Saves\v4\world1 (Probably first time starting with this configuration)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+ProjectM.ServerRuntimeSettings:TryFindMostRecentSave(String, Save&)
+ProjectM.GameBootstrap:GetServerSaveSettings(String, String, ServerHostSettings, UInt64, String&, String&)
+ProjectM.GameBootstrap:Start()
+
+Auto save 10 interval 600
+CreateAndHostServer - SaveDirectory:Z:\mnt\vrising\persistentdata\Saves\v4\world1, Loaded Save:<None>
+[FileUserList] Content:
+76561198141996810
+76561198050864128
+76561198997034467
+[Debug] ServerGameSettingsSystem - OnCreate
+[Debug] ServerGameSettingsSystem - OnCreate - Loading ServerGameSettings via ServerRuntimeSettings settings!
+RuntimeSettings.SaveDirectoryPath: Z:\mnt\vrising\persistentdata\Saves\v4\world1
+Final ServerGameSettings Values:
+{
+  "GameDifficulty": 1,
+  "GameModeType": 1,
+  "CastleDamageMode": 0,
+  "SiegeWeaponHealth": 4,
+  "PlayerDamageMode": 0,
+  "CastleHeartDamageMode": 1,
+  "PvPProtectionMode": 3,
+  "DeathContainerPermission": 0,
+  "RelicSpawnType": 1,
+  "CanLootEnemyContainers": true,
+  "BloodBoundEquipment": true,
+  "TeleportBoundItems": false,
+  "BatBoundItems": false,
+  "BatBoundShards": false,
+  "AllowGlobalChat": true,
+  "AllWaypointsUnlocked": false,
+  "FreeCastleRaid": false,
+  "FreeCastleClaim": false,
+  "FreeCastleDestroy": false,
+  "InactivityKillEnabled": false,
+  "InactivityKillTimeMin": 3600,
+  "InactivityKillTimeMax": 604800,
+  "InactivityKillSafeTimeAddition": 172800,
+  "InactivityKillTimerMaxItemLevel": 84,
+  "StartingProgressionLevel": 0,
+  "WeaponSlots": 8,
+  "DisableDisconnectedDeadEnabled": true,
+  "DisableDisconnectedDeadTimer": 60,
+  "DisconnectedSunImmunityTime": 300.0,
+  "InventoryStacksModifier": 3.0,
+  "DropTableModifier_General": 3.0,
+  "DropTableModifier_Missions": 3.0,
+  "DropTableModifier_StygianShards": 2.0,
+  "SoulShard_DurabilityLossRate": 1.0,
+  "MaterialYieldModifier_Global": 3.0,
+  "BloodEssenceYieldModifier": 3.0,
+  "JournalVBloodSourceUnitMaxDistance": 25.0,
+  "PvPVampireRespawnModifier": 1.0,
+  "CastleMinimumDistanceInFloors": 2,
+  "ClanSize": 4,
+  "BloodDrainModifier": 1.0,
+  "DurabilityDrainModifier": 2.0,
+  "GarlicAreaStrengthModifier": 3.0,
+  "HolyAreaStrengthModifier": 1.5,
+  "SilverStrengthModifier": 3.0,
+  "SunDamageModifier": 2.0,
+  "CastleDecayRateModifier": 1.0,
+  "CastleBloodEssenceDrainModifier": 0.3,
+  "CastleSiegeTimer": 420.0,
+  "CastleUnderAttackTimer": 60.0,
+  "CastleRaidTimer": 600.0,
+  "CastleRaidProtectionTime": 86400.0,
+  "CastleExposedFreeClaimTimer": 300.0,
+  "CastleRelocationCooldown": 10800.0,
+  "CastleRelocationEnabled": true,
+  "AnnounceSiegeWeaponSpawn": true,
+  "ShowSiegeWeaponMapIcon": false,
+  "BuildCostModifier": 0.8,
+  "RecipeCostModifier": 0.8,
+  "CraftRateModifier": 6.0,
+  "ResearchCostModifier": 0.6,
+  "RefinementCostModifier": 0.8,
+  "RefinementRateModifier": 6.0,
+  "ResearchTimeModifier": 6.0,
+  "DismantleResourceModifier": 1.0,
+  "ServantConvertRateModifier": 6.0,
+  "RepairCostModifier": 0.2,
+  "Death_DurabilityFactorLoss": 0.4,
+  "Death_DurabilityLossFactorAsResources": 1.0,
+  "StarterEquipmentId": 0,
+  "StarterResourcesId": 0,
+  "VBloodUnitSettings": [],
+  "UnlockedAchievements": [],
+  "UnlockedResearchs": [],
+  "GameTimeModifiers": {
+    "DayDurationInSeconds": 1080.0,
+    "DayStartHour": 9,
+    "DayStartMinute": 0,
+    "DayEndHour": 17,
+    "DayEndMinute": 0,
+    "BloodMoonFrequency_Min": 10,
+    "BloodMoonFrequency_Max": 18,
+    "BloodMoonBuff": 1.0
+  },
+  "VampireStatModifiers": {
+    "MaxHealthModifier": 1.5,
+    "PhysicalPowerModifier": 1.2,
+    "SpellPowerModifier": 3.0,
+    "ResourcePowerModifier": 1.0,
+    "SiegePowerModifier": 1.5,
+    "DamageReceivedModifier": 1.0,
+    "ReviveCancelDelay": 5.0
+  },
+  "UnitStatModifiers_Global": {
+    "MaxHealthModifier": 1.0,
+    "PowerModifier": 1.2,
+    "LevelIncrease": 0
+  },
+  "UnitStatModifiers_VBlood": {
+    "MaxHealthModifier": 1.5,
+    "PowerModifier": 2.0,
+    "LevelIncrease": 0
+  },
+  "EquipmentStatModifiers_Global": {
+    "MaxHealthModifier": 1.0,
+    "ResourceYieldModifier": 1.0,
+    "PhysicalPowerModifier": 1.0,
+    "SpellPowerModifier": 1.0,
+    "SiegePowerModifier": 1.0,
+    "MovementSpeedModifier": 1.0
+  },
+  "CastleStatModifiers_Global": {
+    "TickPeriod": 5.0,
+    "SafetyBoxLimit": 1,
+    "EyeStructuresLimit": 1,
+    "TombLimit": 12,
+    "VerminNestLimit": 8,
+    "PrisonCellLimit": 24,
+    "HeartLimits": {
+      "Level1": {
+        "FloorLimit": 50,
+        "ServantLimit": 1,
+        "HeightLimit": 3
+      },
+      "Level2": {
+        "FloorLimit": 140,
+        "ServantLimit": 3,
+        "HeightLimit": 3
+      },
+      "Level3": {
+        "FloorLimit": 240,
+        "ServantLimit": 5,
+        "HeightLimit": 3
+      },
+      "Level4": {
+        "FloorLimit": 360,
+        "ServantLimit": 7,
+        "HeightLimit": 3
+      },
+      "Level5": {
+        "FloorLimit": 800,
+        "ServantLimit": 12,
+        "HeightLimit": 6
+      }
+    },
+    "CastleHeartLimitType": 0,
+    "CastleLimit": 2,
+    "NetherGateLimit": 1,
+    "ThroneOfDarknessLimit": 4,
+    "ArenaStationLimit": 8,
+    "RoutingStationLimit": 10
+  },
+  "PlayerInteractionSettings": {
+    "TimeZone": 0,
+    "VSPlayerWeekdayTime": {
+      "StartHour": 1,
+      "StartMinute": 0,
+      "EndHour": 23,
+      "EndMinute": 59
+    },
+    "VSPlayerWeekendTime": {
+      "StartHour": 1,
+      "StartMinute": 0,
+      "EndHour": 23,
+      "EndMinute": 59
+    },
+    "VSCastleWeekdayTime": {
+      "StartHour": 23,
+      "StartMinute": 40,
+      "EndHour": 23,
+      "EndMinute": 59
+    },
+    "VSCastleWeekendTime": {
+      "StartHour": 12,
+      "StartMinute": 0,
+      "EndHour": 23,
+      "EndMinute": 59
+    }
+  },
+  "TraderModifiers": {
+    "StockModifier": 10.0,
+    "PriceModifier": 1.0,
+    "RestockTimerModifier": 0.25
+  },
+  "WarEventGameSettings": {
+    "Interval": 1,
+    "MajorDuration": 1,
+    "MinorDuration": 1,
+    "WeekdayTime": {
+      "StartHour": 0,
+      "StartMinute": 0,
+      "EndHour": 23,
+      "EndMinute": 59
+    },
+    "WeekendTime": {
+      "StartHour": 0,
+      "StartMinute": 0,
+      "EndHour": 23,
+      "EndMinute": 59
+    },
+    "ScalingPlayers1": {
+      "PointsModifier": 1.0,
+      "DropModifier": 1.0
+    },
+    "ScalingPlayers2": {
+      "PointsModifier": 0.5,
+      "DropModifier": 0.5
+    },
+    "ScalingPlayers3": {
+      "PointsModifier": 0.25,
+      "DropModifier": 0.25
+    },
+    "ScalingPlayers4": {
+      "PointsModifier": 0.25,
+      "DropModifier": 0.25
+    }
+  }
+}
+[Server] LoadSceneAsync Request 'WorldAssetSingleton', WaitForSceneLoad: True, SceneEntity: 1694:1
+Starting up ServerSteamTransportLayer. GameServer ID: 90266200480699412
+Opening SteamIPv4 socket on port: 9876. Socket: 131073
+Opening SteamSDR socket on virtual port: 0. Socket: 196610
+[Server] LoadSceneAsync Request '106909442d7b97449b2a77148b5827ef', WaitForSceneLoad: True, SceneEntity: 1699:1
+Loading GameData SubScene 106909442d7b97449b2a77148b5827ef (Entity(1699:1)), GameData Scene Entity: Entity(1699:1)
+[Server] LoadSceneAsync Request 'de0ffb819455f8f4c8eea0748b1012b6', WaitForSceneLoad: True, SceneEntity: 1701:1
+Loading GameData SubScene de0ffb819455f8f4c8eea0748b1012b6 (Entity(1701:1)), GameData Scene Entity: Entity(1701:1)
+[Server] LoadSceneAsync Request '5e3be03ad2064bc4a9644c4a1a30af42', WaitForSceneLoad: True, SceneEntity: 1703:1
+Loading GameData SubScene 5e3be03ad2064bc4a9644c4a1a30af42 (Entity(1703:1)), GameData Scene Entity: Entity(1703:1)
+[Server] LoadSceneAsync Request '0abe506782129014ab07e452031e6f68', WaitForSceneLoad: True, SceneEntity: 1705:1
+Loading GameData SubScene 0abe506782129014ab07e452031e6f68 (Entity(1705:1)), GameData Scene Entity: Entity(1705:1)
+[Server] LoadSceneAsync Request '295c92b7a799a3443b40e9ef192b5727', WaitForSceneLoad: True, SceneEntity: 1707:1
+Loading GameData SubScene 295c92b7a799a3443b40e9ef192b5727 (Entity(1707:1)), GameData Scene Entity: Entity(1707:1)
+[Server] LoadSceneAsync Request 'ad37c0edd53365b40acb48df81e07046', WaitForSceneLoad: True, SceneEntity: 1709:1
+Loading GameData SubScene ad37c0edd53365b40acb48df81e07046 (Entity(1709:1)), GameData Scene Entity: Entity(1709:1)
+[Server] LoadSceneAsync Request '8137c0edd53365b40acb48df81e07046', WaitForSceneLoad: True, SceneEntity: 1711:1
+Loading GameData SubScene 8137c0edd53365b40acb48df81e07046 (Entity(1711:1)), GameData Scene Entity: Entity(1711:1)
+[Server] LoadSceneAsync Request '153b723300728974d8e2bad70c3fd1f2', WaitForSceneLoad: True, SceneEntity: 1713:1
+Loading GameData SubScene 153b723300728974d8e2bad70c3fd1f2 (Entity(1713:1)), GameData Scene Entity: Entity(1713:1)
+[Server] LoadSceneAsync Request '3429e7b0ff91dfa4db4318bcdb0e63bc', WaitForSceneLoad: True, SceneEntity: 1715:1
+Loading GameData SubScene 3429e7b0ff91dfa4db4318bcdb0e63bc (Entity(1715:1)), GameData Scene Entity: Entity(1715:1)
+[Server] LoadSceneAsync Request '4361b3a547128724892dae4688ec7146', WaitForSceneLoad: True, SceneEntity: 1717:1
+Loading GameData SubScene 4361b3a547128724892dae4688ec7146 (Entity(1717:1)), GameData Scene Entity: Entity(1717:1)
+[Server] LoadSceneAsync Request 'b2f35358da120c04c92b9256f40d76ce', WaitForSceneLoad: True, SceneEntity: 1719:1
+Loading GameData SubScene b2f35358da120c04c92b9256f40d76ce (Entity(1719:1)), GameData Scene Entity: Entity(1719:1)
+[Server] LoadSceneAsync Request 'WorldMap', WaitForSceneLoad: True, SceneEntity: 1721:1
+[Steam] FinalizeSetupServer - Setting Tags
+Server Settings hash: c6a474f58a4e0aaefa4227ffecae8c74ad783aab0fccafc29f94d7ef14d59e31
+Size of ServerSettings: 1432
+Server Setup Complete
+PlatformSystemBase - SetServerData - Init!
+EOS.Session - Entering CreateSessionAsync!
+Streamed scene with   37ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/5b2998a2f0961324d880ab4afec89fe2.0.entities
+[Server] LoadSceneSystem.WaitForTargetSceneLoad - SceneEntity 1694:1 done!
+[Server] World Asset Initialized
+Streamed scene with    4ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/d7852543318383546944f7bcd4a089b6.0.entities
+[Server] LoadSceneSystem.WaitForTargetSceneLoad - SceneEntity 1721:1 done!
+Streamed scene with   15ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/3429e7b0ff91dfa4db4318bcdb0e63bc.0.entities
+[Server] LoadSceneSystem.WaitForTargetSceneLoad - SceneEntity 1715:1 done!
+Removing SceneTags from GameData Scene Entity Entity(1715:1)
+[Server] Registering 1558 Prefab Collection Entries in PrefabCollectionSystem
+[Server] Registering 1558 Prefabs in PrefabCollectionSystem
+src\steamnetworkingsockets\clientlib\steamnetworkingsockets_lowlevel.cpp (825) : Assertion Failed: GetBestRoute2 failed with result 50 for address '75.159.108.2:0'
+SteamNetworking - SteamNetConnections.ConnectionUpdate: k_ESteamNetworkingConnectionState_Connecting, 1216859707, 131073
+SteamServerTransport - Update 1216859707 - k_ESteamNetworkingConnectionState_Connecting
+SteamNetworking - SteamNetConnections.ConnectionUpdate: k_ESteamNetworkingConnectionState_Connected, 1216859707, 131073
+SteamServerTransport - Update 1216859707 - k_ESteamNetworkingConnectionState_Connected
+Streamed scene with  118ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/153b723300728974d8e2bad70c3fd1f2.0.entities
+[Server] LoadSceneSystem.WaitForTargetSceneLoad - SceneEntity 1713:1 done!
+Removing SceneTags from GameData Scene Entity Entity(1713:1)
+[Server] Registering 3687 Prefab Collection Entries in PrefabCollectionSystem
+[Server] Registering 3687 Prefabs in PrefabCollectionSystem
+src\steamnetworkingsockets\clientlib\steamnetworkingsockets_lowlevel.cpp (825) : Assertion Failed: GetBestRoute2 failed with result 50 for address '75.159.108.2:0'
+src\steamnetworkingsockets\clientlib\steamnetworkingsockets_lowlevel.cpp (825) : Assertion Failed: GetBestRoute2 failed with result 50 for address '46.110.50.9:0'
+SteamNetworking - SteamNetConnections.ConnectionUpdate: k_ESteamNetworkingConnectionState_Connecting, 62402879, 131073
+SteamServerTransport - Update 62402879 - k_ESteamNetworkingConnectionState_Connecting
+SteamNetworking - SteamNetConnections.ConnectionUpdate: k_ESteamNetworkingConnectionState_Connected, 62402879, 131073
+SteamServerTransport - Update 62402879 - k_ESteamNetworkingConnectionState_Connected
+Streamed scene with  140ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/8137c0edd53365b40acb48df81e07046.0.entities
+src\steamnetworkingsockets\clientlib\steamnetworkingsockets_lowlevel.cpp (825) : Assertion Failed: GetBestRoute2 failed with result 50 for address '46.110.50.9:0'
+src\steamnetworkingsockets\clientlib\steamnetworkingsockets_lowlevel.cpp (825) : Assertion Failed: GetBestRoute2 failed with result 50 for address '104.205.153.130:0'
+[Server] LoadSceneSystem.WaitForTargetSceneLoad - SceneEntity 1711:1 done!
+Removing SceneTags from GameData Scene Entity Entity(1711:1)
+[Server] Registering 1189 Prefab Collection Entries in PrefabCollectionSystem
+[Server] Registering 1189 Prefabs in PrefabCollectionSystem
+SteamNetworking - SteamNetConnections.ConnectionUpdate: k_ESteamNetworkingConnectionState_Connecting, 3048140309, 131073
+SteamServerTransport - Update 3048140309 - k_ESteamNetworkingConnectionState_Connecting
+SteamNetworking - SteamNetConnections.ConnectionUpdate: k_ESteamNetworkingConnectionState_Connected, 3048140309, 131073
+SteamServerTransport - Update 3048140309 - k_ESteamNetworkingConnectionState_Connected
+Streamed scene with   98ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/ad37c0edd53365b40acb48df81e07046.0.entities
+[Server] LoadSceneSystem.WaitForTargetSceneLoad - SceneEntity 1709:1 done!
+Removing SceneTags from GameData Scene Entity Entity(1709:1)
+[Server] Registering 2018 Prefab Collection Entries in PrefabCollectionSystem
+[Server] Registering 2018 Prefabs in PrefabCollectionSystem
+EOS.Session - Entering GetActiveSessionHandle!
+EOS.Session - Entering ModifySessionAsync!
+Streamed scene with  805ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/295c92b7a799a3443b40e9ef192b5727.0.entities
+[Server] LoadSceneSystem.WaitForTargetSceneLoad - SceneEntity 1707:1 done!
+Removing SceneTags from GameData Scene Entity Entity(1707:1)
+[Server] Registering 8505 Prefab Collection Entries in PrefabCollectionSystem
+[Server] Registering 8505 Prefabs in PrefabCollectionSystem
+Instantiating SingletonPrefab -1077964245
+Streamed scene with    4ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/0abe506782129014ab07e452031e6f68.0.entities
+[Server] LoadSceneSystem.WaitForTargetSceneLoad - SceneEntity 1705:1 done!
+Removing SceneTags from GameData Scene Entity Entity(1705:1)
+Streamed scene with    5ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/5e3be03ad2064bc4a9644c4a1a30af42.0.entities
+[Server] LoadSceneSystem.WaitForTargetSceneLoad - SceneEntity 1703:1 done!
+Removing SceneTags from GameData Scene Entity Entity(1703:1)
+[Server] Registering 364 Prefab Collection Entries in PrefabCollectionSystem
+[Server] Registering 364 Prefabs in PrefabCollectionSystem
+Streamed scene with   56ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/4361b3a547128724892dae4688ec7146.0.entities
+[Server] LoadSceneSystem.WaitForTargetSceneLoad - SceneEntity 1717:1 done!
+Removing SceneTags from GameData Scene Entity Entity(1717:1)
+[Server] Registering 395 Prefab Collection Entries in PrefabCollectionSystem
+[Server] Registering 395 Prefabs in PrefabCollectionSystem
+Instantiating SingletonPrefab -571920625
+Streamed scene with  104ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/b2f35358da120c04c92b9256f40d76ce.0.entities
+[Server] LoadSceneSystem.WaitForTargetSceneLoad - SceneEntity 1719:1 done!
+Removing SceneTags from GameData Scene Entity Entity(1719:1)
+[Server] Registering 4841 Prefab Collection Entries in PrefabCollectionSystem
+[Server] Registering 4839 Prefabs in PrefabCollectionSystem
+Instantiating SingletonPrefab 1870987059
+Instantiating SingletonPrefab 1601806240
+Instantiating SingletonPrefab -1830466155
+Instantiating SingletonPrefab -2067847121
+Instantiating SingletonPrefab -64904809
+Instantiating SingletonPrefab 1783731105
+Instantiating SingletonPrefab 1093894748
+Instantiating SingletonPrefab 1517300989
+Instantiating SingletonPrefab 957647889
+Instantiating SingletonPrefab -1121711197
+Streamed scene with   11ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/de0ffb819455f8f4c8eea0748b1012b6.0.entities
+[Server] LoadSceneSystem.WaitForTargetSceneLoad - SceneEntity 1701:1 done!
+Removing SceneTags from GameData Scene Entity Entity(1701:1)
+[Server] Registering 977 Prefab Collection Entries in PrefabCollectionSystem
+[Server] Registering 977 Prefabs in PrefabCollectionSystem
+Registered GenerateCastlePrefabEntities PrefabGuid(1785107561).
+Instantiating SingletonPrefab -1354241064
+Instantiating SingletonPrefab -1080364537
+Instantiating SingletonPrefab 1162706216
+Streamed scene with   16ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/106909442d7b97449b2a77148b5827ef.0.entities
+[Server] LoadSceneSystem.WaitForTargetSceneLoad - SceneEntity 1699:1 done!
+Removing SceneTags from GameData Scene Entity Entity(1699:1)
+[Server] GameData Initialized. 11 GameData Scenes Loaded.
+#0: Entity(1715:1)  - Unity.Entities.Entity  - Unity.Entities.RequestSceneLoaded  - Unity.Scenes.ResolvedSceneHash  - Unity.Entities.SceneReference  - Unity.Entities.LinkedEntityGroup [Buffer]  - Unity.Scenes.ResolvedSectionEntity [Buffer]  - Unity.Entities.PostLoadCommandBuffer  - ProjectM.GameDataSubSceneTag  - ProjectM.GameDataSubSceneSystem+HasRemovedSceneTags  - Unity.Entities.Simulate
+#1: Entity(1713:1)  - Unity.Entities.Entity  - Unity.Entities.RequestSceneLoaded  - Unity.Scenes.ResolvedSceneHash  - Unity.Entities.SceneReference  - Unity.Entities.LinkedEntityGroup [Buffer]  - Unity.Scenes.ResolvedSectionEntity [Buffer]  - Unity.Entities.PostLoadCommandBuffer  - ProjectM.GameDataSubSceneTag  - ProjectM.GameDataSubSceneSystem+HasRemovedSceneTags  - Unity.Entities.Simulate
+#2: Entity(1711:1)  - Unity.Entities.Entity  - Unity.Entities.RequestSceneLoaded  - Unity.Scenes.ResolvedSceneHash  - Unity.Entities.SceneReference  - Unity.Entities.LinkedEntityGroup [Buffer]  - Unity.Scenes.ResolvedSectionEntity [Buffer]  - Unity.Entities.PostLoadCommandBuffer  - ProjectM.GameDataSubSceneTag  - ProjectM.GameDataSubSceneSystem+HasRemovedSceneTags  - Unity.Entities.Simulate
+#3: Entity(1709:1)  - Unity.Entities.Entity  - Unity.Entities.RequestSceneLoaded  - Unity.Scenes.ResolvedSceneHash  - Unity.Entities.SceneReference  - Unity.Entities.LinkedEntityGroup [Buffer]  - Unity.Scenes.ResolvedSectionEntity [Buffer]  - Unity.Entities.PostLoadCommandBuffer  - ProjectM.GameDataSubSceneTag  - ProjectM.GameDataSubSceneSystem+HasRemovedSceneTags  - Unity.Entities.Simulate
+#4: Entity(1707:1)  - Unity.Entities.Entity  - Unity.Entities.RequestSceneLoaded  - Unity.Scenes.ResolvedSceneHash  - Unity.Entities.SceneReference  - Unity.Entities.LinkedEntityGroup [Buffer]  - Unity.Scenes.ResolvedSectionEntity [Buffer]  - Unity.Entities.PostLoadCommandBuffer  - ProjectM.GameDataSubSceneTag  - ProjectM.GameDataSubSceneSystem+HasRemovedSceneTags  - Unity.Entities.Simulate
+#5: Entity(1705:1)  - Unity.Entities.Entity  - Unity.Entities.RequestSceneLoaded  - Unity.Scenes.ResolvedSceneHash  - Unity.Entities.SceneReference  - Unity.Entities.LinkedEntityGroup [Buffer]  - Unity.Scenes.ResolvedSectionEntity [Buffer]  - Unity.Entities.PostLoadCommandBuffer  - ProjectM.GameDataSubSceneTag  - ProjectM.GameDataSubSceneSystem+HasRemovedSceneTags  - Unity.Entities.Simulate
+#6: Entity(1703:1)  - Unity.Entities.Entity  - Unity.Entities.RequestSceneLoaded  - Unity.Scenes.ResolvedSceneHash  - Unity.Entities.SceneReference  - Unity.Entities.LinkedEntityGroup [Buffer]  - Unity.Scenes.ResolvedSectionEntity [Buffer]  - Unity.Entities.PostLoadCommandBuffer  - ProjectM.GameDataSubSceneTag  - ProjectM.GameDataSubSceneSystem+HasRemovedSceneTags  - Unity.Entities.Simulate
+#7: Entity(1717:1)  - Unity.Entities.Entity  - Unity.Entities.RequestSceneLoaded  - Unity.Scenes.ResolvedSceneHash  - Unity.Entities.SceneReference  - Unity.Entities.LinkedEntityGroup [Buffer]  - Unity.Scenes.ResolvedSectionEntity [Buffer]  - Unity.Entities.PostLoadCommandBuffer  - ProjectM.GameDataSubSceneTag  - ProjectM.GameDataSubSceneSystem+HasRemovedSceneTags  - Unity.Entities.Simulate
+#8: Entity(1719:1)  - Unity.Entities.Entity  - Unity.Entities.RequestSceneLoaded  - Unity.Scenes.ResolvedSceneHash  - Unity.Entities.SceneReference  - Unity.Entities.LinkedEntityGroup [Buffer]  - Unity.Scenes.ResolvedSectionEntity [Buffer]  - Unity.Entities.PostLoadCommandBuffer  - ProjectM.GameDataSubSceneTag  - ProjectM.GameDataSubSceneSystem+HasRemovedSceneTags  - Unity.Entities.Simulate
+#9: Entity(1701:1)  - Unity.Entities.Entity  - Unity.Entities.RequestSceneLoaded  - Unity.Scenes.ResolvedSceneHash  - Unity.Entities.SceneReference  - Unity.Entities.LinkedEntityGroup [Buffer]  - Unity.Scenes.ResolvedSectionEntity [Buffer]  - Unity.Entities.PostLoadCommandBuffer  - ProjectM.GameDataSubSceneTag  - ProjectM.GameDataSubSceneSystem+HasRemovedSceneTags  - Unity.Entities.Simulate
+#10: Entity(1699:1)  - Unity.Entities.Entity  - Unity.Entities.RequestSceneLoaded  - Unity.Scenes.ResolvedSceneHash  - Unity.Entities.SceneReference  - Unity.Entities.LinkedEntityGroup [Buffer]  - Unity.Scenes.ResolvedSectionEntity [Buffer]  - Unity.Entities.PostLoadCommandBuffer  - ProjectM.GameDataSubSceneTag  - ProjectM.GameDataSubSceneSystem+HasRemovedSceneTags  - Unity.Entities.Simulate
+[Server] Registering 1 Asset Metadata Collections in PrefabCollectionSystem
+Excluding all archetypes with 177 components from Persistence:
+MainMenuCanvasBase
+* UICanvasBase
+* VisualizeCastleRoomsSingleton
+* ShowCrowdedness
+* ServantPerkCollectionSingleton
+* ShowDeadEndTilesResult
+* ShowProjectedSunblockers
+* Singleton
+* TravelBuffCollection
+* ChunkDataRemappings
+* LocalRagdollImpulse
+* Sun
+* CooldownRecoveryRateChangedEvent
+* ServantMissionSettingsSingleton
+* ServerResetScheduleNoticeSettingsSingleton
+* JewelSpawnSystemData
+* MarkerGuidanceSingleton
+* ServerDebugLogs
+* ServerDebugViewData
+* MiscLocalizationKeysSingleton
+* Singleton
+* ShowCommandBufferStats
+* KeepDataAfterPersistenceTestSingleton
+* TestPersistenceV2Save
+* SavePersistentDataEvent
+* QuickStartup
+* ShowAim
+* SpawnChainDebugEnabled
+* QueuedSpawnRequestSingleton
+* TimeScale
+* GameIsPaused
+* GameIsPlaying
+* UISequenceMappingTag
+* UserConnectionChangedEvent
+* Singleton
+* LightningStormTypeCollection
+* CastleBlockCollection
+* GenerateCastlePrefabs
+* Data
+* CastleRebuildSettings
+* Singleton
+* CastleRebuildRegistry
+* CastleRebuildRegistry_Server
+* ContestCollection
+* FakeTurnOffStudioListener
+* DestroyedEntity
+* NetworkEventType
+* CastleIndexBufferSingleton
+* PacketBookkeeperSystemData
+* PrioritizeSystemData
+* LogPrioritization
+* Singleton
+* SpellModSyncSystem_ServerData
+* AchievementCollectionSingleton
+* Singleton
+* Singleton
+* AbilitySystemDamageTakenEventSinceLastUpdateData
+* BlinkSystemData
+* InventoryRouteSyncSingleton
+* UtcTicksSingleton
+* CastleArenaBuildPreviewData
+* DefaultEquipmentCollectionSingleton
+* LoadToTargetWorld
+* StripForBuild
+* CollisionDetectionSingleton
+* KnockbackAssetsSingleton
+* InventoryRouteSingleton_Server
+* Singleton
+* ShowTileCollision
+* RegisterCurveBlobEvent
+* LogEntitySpawnDestroy
+* SyncedServerDebugSettings
+* GameDataInitializedSingleton
+* GameDataLoadingStartedSingleton
+* PersistenceDebuggingSingleton
+* RootPrefabCollection
+* ServerRootPrefabCollection
+* SystemData
+* ServerRuntimeSettings
+* SubSceneRemapping
+* ModificationsRegistry
+* ModificationCleanupSingleton
+* MegaStaticTag
+* ShowWorldPathsEnabled
+* GameplayEventsData
+* CurveCollection
+* FactionLookupSingleton
+* GameDatas
+* Singleton
+* ProgressionDependencyData
+* ServerGameBalanceSettings
+* RemappedPrefabDataLookup
+* Singleton
+* Singleton
+* Singleton
+* Singleton
+* Singleton
+* Singleton
+* Singleton
+* Singleton
+* Singleton
+* TimeZonedDateTime
+* MapZoneCollection
+* UserInfoBufferSingleton
+* AiDebugEnabled
+* WorldFrame
+* MapZoneData
+* MapZoneDebugEnabled
+* LoadTerrainChunkRequest
+* TerrainChunkMetadata
+* TerrainChunkLoadedEvent
+* TerrainChunkUnloadedEvent
+* TerrainChunkMetadataLoadedEvent
+* TerrainChunkLookup
+* SystemData
+* WorldConfigSingleton
+* WorldRoadGraph
+* DebugShowPhysicsCasts
+* GameplayEventDebuggingData
+* ManagedEditorGameplayScriptingData
+* DestroyedNetworkIdSingleton
+* Singleton
+* UserActivityGrid
+* EnableRoomRoofDebuggingSingleton
+* TileWorldSingleton
+* SharedCastleInventoryInstance
+* SpellModCollectionData
+* SpellModTierCollectionData
+* WarEventDynamicHealthScalingSingleton
+* StaticSceneTag
+* RetainBlobAssets
+* Singleton
+* Singleton
+* Singleton
+* Singleton
+* Singleton
+* Singleton
+* Singleton
+* Singleton
+* Singleton
+* Prefab
+* SceneSectionData
+* RequestSceneLoaded
+* WorldTime
+* SystemInstance
+* PhysicsStep
+* SimulationSingleton
+* PhysicsWorldSingleton
+* StepInputSingleton
+* AggroChangeLogQueue
+* SystemData
+* Singleton
+* Singleton
+* Singleton
+* Singleton
+* Singleton
+* Singleton
+* CastleBuffsSettings
+* QueuedTerrainChunkLoadedEvent
+* ShowPhysicsColliders
+* PhysicsDebugDisplayData
+* DebugStruct
+* ClaimedBundlesFromOtherWorld
+* NetworkSyncDebugEnabled
+* ServerShutdown
+* ShowUserActivityGridComponent
+* ReservedEntityIndex
+* WorldTypeSingleton
+* Singleton
+* SceneSystemConfiguration
+* DontSaveEntity
+* IdleInteractionBuffBuffer
+* RelicDropped
+* MostRecentFixedTime
+* PublicEntityRef
+* SectionMetadataSetup
+* SceneSection
+PersistenceV2 - Successfully serialized Persistence Header. Header was 819670 bytes large.
+[Server] Request Load Chunk 2,0, GUID: 672ca7a93fee20b46a9c7d87ff39a4c8
+[Server] Request Load Chunk 3,0, GUID: 672ca7a93fee20b46a9c7d87ff39a4c8
+[Server] Request Load Chunk 4,0, GUID: 672ca7a93fee20b46a9c7d87ff39a4c8
+[Server] Request Load Chunk 5,0, GUID: 672ca7a93fee20b46a9c7d87ff39a4c8
+[Server] Request Load Chunk 6,0, GUID: 672ca7a93fee20b46a9c7d87ff39a4c8
+[Server] Request Load Chunk 7,0, GUID: 672ca7a93fee20b46a9c7d87ff39a4c8
+[Server] Request Load Chunk 10,0, GUID: 3b35dfc3f24e9bb45b6da67f70a87fbd
+[Server] Request Load Chunk 12,0, GUID: 3b35dfc3f24e9bb45b6da67f70a87fbd
+[Server] Request Load Chunk 14,0, GUID: 3b35dfc3f24e9bb45b6da67f70a87fbd
+[Server] Request Load Chunk 16,0, GUID: 3b35dfc3f24e9bb45b6da67f70a87fbd
+[Server] Request Load Chunk 18,0, GUID: 3b35dfc3f24e9bb45b6da67f70a87fbd
+[Server] Request Load Chunk 20,0, GUID: 3b35dfc3f24e9bb45b6da67f70a87fbd
+[Server] Request Load Chunk 9,1, GUID: 3b35dfc3f24e9bb45b6da67f70a87fbd
+[Server] Request Load Chunk 10,1, GUID: a32a1d347a4b31d4c90744a4ede6acc5
+[Server] Request Load Chunk 11,1, GUID: 3b35dfc3f24e9bb45b6da67f70a87fbd
+[Server] Request Load Chunk 12,1, GUID: a32a1d347a4b31d4c90744a4ede6acc5
+[Server] Request Load Chunk 13,1, GUID: 3b35dfc3f24e9bb45b6da67f70a87fbd
+[Server] Request Load Chunk 14,1, GUID: a32a1d347a4b31d4c90744a4ede6acc5
+[Server] Request Load Chunk 15,1, GUID: 3b35dfc3f24e9bb45b6da67f70a87fbd
+[Server] Request Load Chunk 16,1, GUID: a32a1d347a4b31d4c90744a4ede6acc5
+[Server] Request Load Chunk 17,1, GUID: 3b35dfc3f24e9bb45b6da67f70a87fbd
+[Server] Request Load Chunk 18,1, GUID: a32a1d347a4b31d4c90744a4ede6acc5
+[Server] Request Load Chunk 19,1, GUID: 3b35dfc3f24e9bb45b6da67f70a87fbd
+[Server] Request Load Chunk 20,1, GUID: a32a1d347a4b31d4c90744a4ede6acc5
+[Server] Request Load Chunk 24,1, GUID: bb1415ea81c843e4ba034af72f10c36b
+[Server] Request Load Chunk 7,2, GUID: a8f9b2d179bbbf246963926a0f537def
+[Server] Request Load Chunk 9,2, GUID: 5dd2d5dbc5240404ab98da395aa11c1f
+[Server] Request Load Chunk 10,2, GUID: c5d45555f3d519943a0e80adc9ff4f51
+[Server] Request Load Chunk 11,2, GUID: 5dd2d5dbc5240404ab98da395aa11c1f
+[Server] Request Load Chunk 12,2, GUID: c5d45555f3d519943a0e80adc9ff4f51
+[Server] Request Load Chunk 13,2, GUID: 5dd2d5dbc5240404ab98da395aa11c1f
+[Server] Request Load Chunk 14,2, GUID: c5d45555f3d519943a0e80adc9ff4f51
+[Server] Request Load Chunk 15,2, GUID: 5dd2d5dbc5240404ab98da395aa11c1f
+[Server] Request Load Chunk 16,2, GUID: c5d45555f3d519943a0e80adc9ff4f51
+[Server] Request Load Chunk 17,2, GUID: 5dd2d5dbc5240404ab98da395aa11c1f
+[Server] Request Load Chunk 18,2, GUID: c5d45555f3d519943a0e80adc9ff4f51
+[Server] Request Load Chunk 19,2, GUID: 5dd2d5dbc5240404ab98da395aa11c1f
+[Server] Request Load Chunk 20,2, GUID: c5d45555f3d519943a0e80adc9ff4f51
+[Server] Request Load Chunk 24,2, GUID: 1c35ac5c585935c4cbb47e9b8d285c35
+[Server] Request Load Chunk 13,6, GUID: 3b35dfc3f24e9bb45b6da67f70a87fbd
+[Server] Request Load Chunk 14,6, GUID: 3b35dfc3f24e9bb45b6da67f70a87fbd
+[Server] Request Load Chunk 6,7, GUID: 3b35dfc3f24e9bb45b6da67f70a87fbd
+[Server] Request Load Chunk 7,7, GUID: 3b35dfc3f24e9bb45b6da67f70a87fbd
+[Server] Request Load Chunk 8,7, GUID: 3b35dfc3f24e9bb45b6da67f70a87fbd
+[Server] Request Load Chunk 9,7, GUID: 3b35dfc3f24e9bb45b6da67f70a87fbd
+[Server] Request Load Chunk 10,7, GUID: 3b35dfc3f24e9bb45b6da67f70a87fbd
+[Server] Request Load Chunk 11,7, GUID: 3b35dfc3f24e9bb45b6da67f70a87fbd
+[Server] Request Load Chunk 12,7, GUID: 3b35dfc3f24e9bb45b6da67f70a87fbd
+[Server] Request Load Chunk 13,7, GUID: 3b35dfc3f24e9bb45b6da67f70a87fbd
+[Server] Request Load Chunk 14,7, GUID: 0a2fb7d5434b2154fa9f4c1197b74eaf
+[Server] Request Load Chunk 15,7, GUID: 3b35dfc3f24e9bb45b6da67f70a87fbd
+[Server] Request Load Chunk 6,8, GUID: 3b35dfc3f24e9bb45b6da67f70a87fbd
+[Server] Request Load Chunk 7,8, GUID: 0a2fb7d5434b2154fa9f4c1197b74eaf
+[Server] Request Load Chunk 8,8, GUID: 246501a0fbb9b7c4da29aa602ea5c4fa
+[Server] Request Load Chunk 9,8, GUID: 2924653d35377074fb8b64f8e6ce332d
+[Server] Request Load Chunk 10,8, GUID: 7bdbb53c239283d41ba2e80c2cfc88d1
+[Server] Request Load Chunk 11,8, GUID: d0bbfaf22bd883e4893b0ac0b85c9ff3
+[Server] Request Load Chunk 12,8, GUID: b13e05079fb92c142b38b178720b3b94
+[Server] Request Load Chunk 13,8, GUID: 5689b37fb2a722548923851c2267340e
+[Server] Request Load Chunk 14,8, GUID: 246501a0fbb9b7c4da29aa602ea5c4fa
+[Server] Request Load Chunk 15,8, GUID: 3b35dfc3f24e9bb45b6da67f70a87fbd
+[Server] Request Load Chunk 6,9, GUID: 3b35dfc3f24e9bb45b6da67f70a87fbd
+[Server] Request Load Chunk 7,9, GUID: bb682846556abae47aea289e7a73fe33
+[Server] Request Load Chunk 8,9, GUID: 961d54a8261f07443a0714460e6ed3ad
+[Server] Request Load Chunk 9,9, GUID: 3739a7322d5189b44b6fc10ff2136d13
+[Server] Request Load Chunk 10,9, GUID: 63ec8da752096ff4fbe860e2a27bd938
+[Server] Request Load Chunk 11,9, GUID: db1bf1eff344b4740bd20bcd9f3798f2
+[Server] Request Load Chunk 12,9, GUID: 7409c40e09fe36849a7a4f69b9dee9a4
+[Server] Request Load Chunk 13,9, GUID: 572f5d77f8d8c99478f666fd7dd9e971
+[Server] Request Load Chunk 14,9, GUID: c6f842b31ef5c68438513e1ae93b16e9
+[Server] Request Load Chunk 15,9, GUID: 3b35dfc3f24e9bb45b6da67f70a87fbd
+[Server] Request Load Chunk 16,9, GUID: 3b35dfc3f24e9bb45b6da67f70a87fbd
+[Server] Request Load Chunk 5,10, GUID: 3b35dfc3f24e9bb45b6da67f70a87fbd
+[Server] Request Load Chunk 6,10, GUID: 2b0aa0e451049674fa790cced730bbcc
+[Server] Request Load Chunk 7,10, GUID: a998f7c4607ba784faf0ff5c29bba6a7
+[Server] Request Load Chunk 8,10, GUID: e2cc62feb26335042aa536083bb4dcf0
+[Server] Request Load Chunk 9,10, GUID: 1ca277e0bf4d98a43a56cef775b49142
+[Server] Request Load Chunk 10,10, GUID: 018be26374d7ad94d99c57e637f5cc42
+[Server] Request Load Chunk 11,10, GUID: f25c3a0b1519dcf4ea97a32e97419363
+[Server] Request Load Chunk 12,10, GUID: 932bb97227381554dadbdb61e0d574f0
+[Server] Request Load Chunk 13,10, GUID: 13cb16d70e7b99f46b9d729629a7610e
+[Server] Request Load Chunk 14,10, GUID: f407776a73ac0f941ac82ca0898d23b3
+[Server] Request Load Chunk 15,10, GUID: 7603da2c0ab76ce42bbb76d6973ab774
+[Server] Request Load Chunk 16,10, GUID: 3b35dfc3f24e9bb45b6da67f70a87fbd
+[Server] Request Load Chunk 5,11, GUID: 3b35dfc3f24e9bb45b6da67f70a87fbd
+[Server] Request Load Chunk 6,11, GUID: 9cabd2dd1cf483248ba5c374ce25a01b
+[Server] Request Load Chunk 7,11, GUID: dd9f9625193304d4e8aa818da04393fd
+[Server] Request Load Chunk 8,11, GUID: e7016e4482dd90d48a07e11fb7b61e1d
+[Server] Request Load Chunk 9,11, GUID: 2f28cba5d2967df46a339f6320e81ff7
+[Server] Request Load Chunk 10,11, GUID: bc1c781740a9e934fb0d5c193f437f71
+[Server] Request Load Chunk 11,11, GUID: 51dc6e7b03b5ede40bff1ee22119048b
+[Server] Request Load Chunk 12,11, GUID: 66ed128ef846d964cb87c330243cd418
+[Server] Request Load Chunk 13,11, GUID: f3e9e47d7d0e7934da133472526cf0cd
+[Server] Request Load Chunk 14,11, GUID: e6f764ecf5a86194eb79b2d8ecce280c
+[Server] Request Load Chunk 15,11, GUID: c006a5ce1938498428651ba4e3bacc61
+[Server] Request Load Chunk 16,11, GUID: 67c6a4f74fd0eac4094adb77211b329b
+[Server] Request Load Chunk 5,12, GUID: 3b35dfc3f24e9bb45b6da67f70a87fbd
+[Server] Request Load Chunk 6,12, GUID: 6acb7f42776a280488cf322cfe2c41a1
+[Server] Request Load Chunk 7,12, GUID: f0b9143094f3a874ca1c0abf916dc8e4
+[Server] Request Load Chunk 8,12, GUID: ed0419b22d53ffc4bb80e7bba27082a6
+[Server] Request Load Chunk 9,12, GUID: d10a2bcae0fa8ec44bdb08c5db2aee69
+[Server] Request Load Chunk 10,12, GUID: efae7737e5f4ecb49b515d0b78380b08
+[Server] Request Load Chunk 11,12, GUID: b4e0fcd1c502f5b41ae8eb3f13639c46
+[Server] Request Load Chunk 12,12, GUID: 8459f04ca1b308b4f84f83c5fcb558f3
+[Server] Request Load Chunk 13,12, GUID: 9d82a1fe1f1923c4f97dabd78cfc5e69
+[Server] Request Load Chunk 14,12, GUID: b3918aa903880054992b249d88e94721
+[Server] Request Load Chunk 15,12, GUID: 75b057013a92e184c9aa6bd62f8e6939
+[Server] Request Load Chunk 16,12, GUID: d183bd97afec4ba47a046e022c6e2d6f
+[Server] Request Load Chunk 3,13, GUID: 969df75726d785141aac4e3eafc10f58
+[Server] Request Load Chunk 4,13, GUID: eb98dfa1d0f03614b8701815acc42dc5
+[Server] Request Load Chunk 5,13, GUID: 803a66b8863b65a4b8aa02d809ef2961
+[Server] Request Load Chunk 6,13, GUID: e46aa2103acda034e93ce31c0b25ed38
+[Server] Request Load Chunk 7,13, GUID: 3756338433cce094daf73fad2456a943
+[Server] Request Load Chunk 8,13, GUID: 4e0141c01fc58334aa641d7325cb82ad
+[Server] Request Load Chunk 9,13, GUID: 300a10b3b72626145bebf232838caa6b
+[Server] Request Load Chunk 10,13, GUID: 1e8af03ee0ab0744c915e4fcd10e2700
+[Server] Request Load Chunk 11,13, GUID: 65ebd5dc8069d9e4ca0d9f2cb14b61cc
+[Server] Request Load Chunk 12,13, GUID: ce6660cca1c5e8e46a9295c0bd5f83b8
+[Server] Request Load Chunk 13,13, GUID: b7eec76dc482f474d831a5b8dab5f464
+[Server] Request Load Chunk 14,13, GUID: 6c50437c10040a449a8d7211763a840d
+[Server] Request Load Chunk 15,13, GUID: 4a4bb2077467d6b49a0421e25646abc9
+[Server] Request Load Chunk 16,13, GUID: 1f3daaeb74b19e14f9b56fca0f1f57f8
+[Server] Request Load Chunk 17,13, GUID: 166f8e7e5d582b349ae4bf854c799c1e
+[Server] Request Load Chunk 3,14, GUID: 969df75726d785141aac4e3eafc10f58
+[Server] Request Load Chunk 4,14, GUID: 31902c41e7682894f9c447957cba74b2
+[Server] Request Load Chunk 5,14, GUID: 57768327b6c16aa4cad909805524110f
+[Server] Request Load Chunk 6,14, GUID: b2864e1d7aa17c94bbbdbe763bf49b61
+[Server] Request Load Chunk 7,14, GUID: 97c0b914358f39740b0172c91e7490ca
+[Server] Request Load Chunk 8,14, GUID: 8988d34a4a760e648bb45b73cfc9a65c
+[Server] Request Load Chunk 9,14, GUID: d8d39d9cae64a994e964897b1d11a878
+[Server] Request Load Chunk 10,14, GUID: 33e116ddbdc3d3f43811112b11dc2b52
+[Server] Request Load Chunk 11,14, GUID: 0bf871d9fb36cdd48ad122804d9b1013
+[Server] Request Load Chunk 12,14, GUID: f7986e7bb9a9eae4d9cfa79927e3e9bc
+[Server] Request Load Chunk 13,14, GUID: 72320aa56209ffe438f18204e35b4d6e
+[Server] Request Load Chunk 14,14, GUID: 6bd518e3475c59c4f840c8b7a165bdbd
+[Server] Request Load Chunk 15,14, GUID: ebc0e81445889354493ff1dd7819395d
+[Server] Request Load Chunk 16,14, GUID: 23502868847bd25438b97f66324f3693
+[Server] Request Load Chunk 17,14, GUID: ebb5353de2034c24883753a4c3c187ef
+[Server] Request Load Chunk 18,14, GUID: 166f8e7e5d582b349ae4bf854c799c1e
+[Server] Request Load Chunk 3,15, GUID: 969df75726d785141aac4e3eafc10f58
+[Server] Request Load Chunk 4,15, GUID: 1c57d5145f02c9d42a7038429962a4c6
+[Server] Request Load Chunk 5,15, GUID: dc32b732a7079b241b4cda0b0a802de1
+[Server] Request Load Chunk 6,15, GUID: 6ca8b6b6c80aadc4d9d137c9aa0bf903
+[Server] Request Load Chunk 7,15, GUID: 815b649b859e0f344a9606208de15ed9
+[Server] Request Load Chunk 8,15, GUID: 60d3f49d35b449b458b14a86bc33e08a
+[Server] Request Load Chunk 9,15, GUID: 94bc1ff1b3e17144cbc7860838bf6c5f
+[Server] Request Load Chunk 10,15, GUID: 850fabbda3a0e114b9130af63c2227ff
+[Server] Request Load Chunk 11,15, GUID: b415b14d94c45bf47961ea6dfd875cdc
+[Server] Request Load Chunk 12,15, GUID: 8282cb929e99f6d40b7ef61fb2ef1fde
+[Server] Request Load Chunk 13,15, GUID: 0fbff50debacab047a02110fd1efa602
+[Server] Request Load Chunk 14,15, GUID: a18bb66913b043a429432c99bf88a792
+[Server] Request Load Chunk 15,15, GUID: 0ffcb79747218cc4ba436947639e2d47
+[Server] Request Load Chunk 16,15, GUID: 8f029ad3f1a49cb4d922ba39c9842634
+[Server] Request Load Chunk 17,15, GUID: 46dfdacabe3533347a2229c35ab3163f
+[Server] Request Load Chunk 18,15, GUID: 6bd24955574d58449beebfd189c1f316
+[Server] Request Load Chunk 4,16, GUID: 2075b60fd7945c340ae29d0f813173a1
+[Server] Request Load Chunk 5,16, GUID: 63f655160d3bf3b4eb567447d7d29e6c
+[Server] Request Load Chunk 6,16, GUID: 67187f191c1498a4abbbee7a2e1423db
+[Server] Request Load Chunk 7,16, GUID: 54b7431cc8792644a8bc0bc74df76dc0
+[Server] Request Load Chunk 8,16, GUID: 8a8f65afccc7c534ebeacce15877790b
+[Server] Request Load Chunk 9,16, GUID: 9cd7bd8f2ec8c584db1c67f02a106911
+[Server] Request Load Chunk 10,16, GUID: 7a3e53009e61c694a8f7c364bc78af17
+[Server] Request Load Chunk 11,16, GUID: 547bc245331509a41978079c01b83a0c
+[Server] Request Load Chunk 12,16, GUID: 20cbebceceb1b7b4685da80b72bd6a2c
+[Server] Request Load Chunk 13,16, GUID: 866dbd21c5b737f4ca89f83e65e89e9e
+[Server] Request Load Chunk 14,16, GUID: 99d16e55435f70146aa87f52b92eaddb
+[Server] Request Load Chunk 15,16, GUID: 08430246543c97044bd481dc79687e95
+[Server] Request Load Chunk 16,16, GUID: 7d04c45940098e94ca63b6dadb8fb5d0
+[Server] Request Load Chunk 17,16, GUID: 4cb629b2044983849b82c92673ff6241
+[Server] Request Load Chunk 18,16, GUID: ca02429a0e02d4e4d83f7ee2b7d0d9c7
+[Server] Request Load Chunk 19,16, GUID: c337f7631ce849c46aa134e5c89e5904
+[Server] Request Load Chunk 3,17, GUID: e23878794ad006e4d91c43b795ccdf0a
+[Server] Request Load Chunk 4,17, GUID: ceef3ebf1383b814db17794e71bb1332
+[Server] Request Load Chunk 5,17, GUID: c6d34432693f24046ae5916650cc70ef
+[Server] Request Load Chunk 6,17, GUID: a24097bd09125954f9c0d4c23a578185
+[Server] Request Load Chunk 7,17, GUID: 81fb587f67a221b4b9d75c385f8e9d63
+[Server] Request Load Chunk 8,17, GUID: 47c1e305fdffec34d9c4dfdbd9b75a23
+[Server] Request Load Chunk 9,17, GUID: 5b5675b6fbd72104690f7844cc7b9983
+[Server] Request Load Chunk 10,17, GUID: 2a0e7ef7deda58645b7a8114ea225c57
+[Server] Request Load Chunk 11,17, GUID: d11c48a5bd371924fbdff533cc791b22
+[Server] Request Load Chunk 12,17, GUID: d53c71f34e6c99e4da88e5048ddeebbb
+[Server] Request Load Chunk 13,17, GUID: b22d2359d6d89ee47b79df873d18309b
+[Server] Request Load Chunk 14,17, GUID: f3e926d03d837204e92948f303a3af69
+[Server] Request Load Chunk 15,17, GUID: 9703f861393067744acce835eb5d06a6
+[Server] Request Load Chunk 16,17, GUID: 2e58ee30f0eafb042ad0f68e6676a303
+[Server] Request Load Chunk 17,17, GUID: 4939b1e6cef38424eb7429cff38edc4e
+[Server] Request Load Chunk 18,17, GUID: 3d5942862fa3c274fa36c3224f27e136
+[Server] Request Load Chunk 3,18, GUID: db8503c537e012a428923b38e08d5475
+[Server] Request Load Chunk 4,18, GUID: 0e2ed403c9936624394de4e3bdf614ca
+[Server] Request Load Chunk 5,18, GUID: cf9f2a01f0aa21f45b29d712351976ff
+[Server] Request Load Chunk 6,18, GUID: d6d16109c9507274a9a5ff5fa22c377f
+[Server] Request Load Chunk 7,18, GUID: cc75a5684dcec7b4eab954f1779f2244
+[Server] Request Load Chunk 8,18, GUID: f486e66146ad6b14da0f1128762bdea9
+[Server] Request Load Chunk 9,18, GUID: 979bc1eb8da27534ebecae3e13f9e6c4
+[Server] Request Load Chunk 10,18, GUID: 74d18dec9f001e74690990c5b3a58673
+[Server] Request Load Chunk 11,18, GUID: 9224e352fb3e2de4a851d4d563a23253
+[Server] Request Load Chunk 12,18, GUID: f1ca236d4521f8744a72cef5561ddd68
+[Server] Request Load Chunk 13,18, GUID: 2213d341313eab24eba9a1ab1369deed
+[Server] Request Load Chunk 14,18, GUID: 4a128f709dc5a604bb6cd25bbaf7e91c
+[Server] Request Load Chunk 15,18, GUID: c52fb37929a2af042a280fc3c3400908
+[Server] Request Load Chunk 16,18, GUID: f1aa45887bd2f3244a54be879ca9ddf4
+[Server] Request Load Chunk 17,18, GUID: 04feb494f00442b4c81ec75321316203
+[Server] Request Load Chunk 18,18, GUID: a261a4925caeb15449d9de1b6b137b78
+[Server] Request Load Chunk 3,19, GUID: 0699af76f87f5dc43beed1cd0aaef14a
+[Server] Request Load Chunk 4,19, GUID: 1a9af355f78c70e43a7a83a9d33fca7d
+[Server] Request Load Chunk 5,19, GUID: d2af243084018944c8262b43a8e897aa
+[Server] Request Load Chunk 6,19, GUID: 4597a0b36642baf488f8d8a314a3abbf
+[Server] Request Load Chunk 7,19, GUID: 2933ef436b9a5964b8bb48801d8eae81
+[Server] Request Load Chunk 8,19, GUID: 2cead2dfbe92e3743a4146633630ac8c
+[Server] Request Load Chunk 9,19, GUID: ad4db948f91089948a621826ac9c2bef
+[Server] Request Load Chunk 10,19, GUID: da2b4c2abad58f34f8a9f131b869bb2c
+[Server] Request Load Chunk 11,19, GUID: 3efa376eea3b2ce4e8c56e6042cb58e1
+[Server] Request Load Chunk 12,19, GUID: d7c10c4925dcdac4788e5e7d2cbc5831
+[Server] Request Load Chunk 13,19, GUID: 2ad20c16f31ec834a99ab851273159dc
+[Server] Request Load Chunk 14,19, GUID: 476260f36f2939a42aef1ec3e94d8e15
+[Server] Request Load Chunk 15,19, GUID: d65cbf841aad2444095a24600f1bd7f6
+[Server] Request Load Chunk 16,19, GUID: 02859bb7f289b5344b828443bca3bbb7
+[Server] Request Load Chunk 3,20, GUID: 0cd9b7ad49f9a9a459f5db1116a79c0f
+[Server] Request Load Chunk 4,20, GUID: 5bb3f493780edff49bb14e09334ceee4
+[Server] Request Load Chunk 5,20, GUID: f8e554bd0775f4d408b136c7f4577984
+[Server] Request Load Chunk 6,20, GUID: 69c4456c9cf9e9048974ad89bb2c142f
+[Server] Request Load Chunk 7,20, GUID: 7674d10acab38ce49b474e90cec74ebf
+[Server] Request Load Chunk 8,20, GUID: 6446314c69b5d754493de5a14ae3902b
+[Server] Request Load Chunk 9,20, GUID: 744630a5439ac0940b7c6fc0d21187cc
+[Server] Request Load Chunk 10,20, GUID: 58b7e729bf8cf6a4593f65f61aa768c0
+[Server] Request Load Chunk 11,20, GUID: 6ee9860801fd49d42b5ffef67240e971
+[Server] Request Load Chunk 12,20, GUID: 350db1c39517b094baa99a7787a056bb
+[Server] Request Load Chunk 13,20, GUID: 029844f687657aa4c8e5db4e275c4f91
+[Server] Request Load Chunk 14,20, GUID: 412d21116f4dfb64a8afa48f2749fe1c
+[Server] Request Load Chunk 15,20, GUID: b629f1d8ee7e02846966ad4936c6fe1c
+[Server] Request Load Chunk 16,20, GUID: e54a69ffe7b182a449c99249457fbbfa
+[Server] Request Load Chunk 3,21, GUID: 0cd9b7ad49f9a9a459f5db1116a79c0f
+[Server] Request Load Chunk 4,21, GUID: 0cd9b7ad49f9a9a459f5db1116a79c0f
+[Server] Request Load Chunk 5,21, GUID: c918ebcafeb9d64418fe120b947ddc13
+[Server] Request Load Chunk 6,21, GUID: 37212c413eefe3945909a2545f9984a3
+[Server] Request Load Chunk 7,21, GUID: cd0102376e0df9141a90ac6dcb400ca6
+[Server] Request Load Chunk 8,21, GUID: 8009c3c2f451dcc4b8abacf193377c7e
+[Server] Request Load Chunk 9,21, GUID: e3013bf393f633f42aeb359b82384b57
+[Server] Request Load Chunk 10,21, GUID: 183d5e702836ed748ae813d4757a065a
+[Server] Request Load Chunk 11,21, GUID: 3942e8aad1d9f164484fd7c16cfcfc1d
+[Server] Request Load Chunk 12,21, GUID: 97fce44cfe63ddf40ae54dd6696ef09e
+[Server] Request Load Chunk 13,21, GUID: f508b19e57277a546b8d838d03301fe7
+[Server] Request Load Chunk 14,21, GUID: 1495eac6e565a964a9ba08d87878f77b
+[Server] Request Load Chunk 4,22, GUID: 0cd9b7ad49f9a9a459f5db1116a79c0f
+[Server] Request Load Chunk 5,22, GUID: 2ce7c59433c1e2643ac9e82c5da0db88
+[Server] Request Load Chunk 6,22, GUID: 27ada8e0788be0e4591f6692f493ff88
+[Server] Request Load Chunk 7,22, GUID: 63e39e9c27341ef4687c8f613c27136e
+[Server] Request Load Chunk 8,22, GUID: 9cda48d69859871479364aa38b6e44ea
+EOS.Session - Entering ModifySessionAsync!
+Streamed scene with  419ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/672ca7a93fee20b46a9c7d87ff39a4c8.0.entities
+[Server] Loaded Chunk 2,0
+Streamed scene with   10ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/672ca7a93fee20b46a9c7d87ff39a4c8.0.entities
+[Server] Loaded Chunk 4,0
+Streamed scene with    9ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/672ca7a93fee20b46a9c7d87ff39a4c8.0.entities
+[Server] Loaded Chunk 7,0
+Streamed scene with    8ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/672ca7a93fee20b46a9c7d87ff39a4c8.0.entities
+[Server] Loaded Chunk 6,0
+Streamed scene with   10ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/672ca7a93fee20b46a9c7d87ff39a4c8.0.entities
+[Server] Loaded Chunk 5,0
+Streamed scene with    6ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/672ca7a93fee20b46a9c7d87ff39a4c8.0.entities
+[Server] Loaded Chunk 3,0
+Streamed scene with   10ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/3b35dfc3f24e9bb45b6da67f70a87fbd.0.entities
+[Server] Loaded Chunk 10,0
+Streamed scene with   10ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/f8e554bd0775f4d408b136c7f4577984.0.entities
+[Server] Loaded Chunk 5,20
+Streamed scene with   14ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/9cda48d69859871479364aa38b6e44ea.0.entities
+[Server] Loaded Chunk 8,22
+Streamed scene with    7ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/27ada8e0788be0e4591f6692f493ff88.0.entities
+[Server] Loaded Chunk 6,22
+Streamed scene with   18ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/63e39e9c27341ef4687c8f613c27136e.0.entities
+[Server] Loaded Chunk 7,22
+Streamed scene with   10ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/246501a0fbb9b7c4da29aa602ea5c4fa.0.entities
+[Server] Loaded Chunk 8,8
+Streamed scene with   11ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/58b7e729bf8cf6a4593f65f61aa768c0.0.entities
+[Server] Loaded Chunk 10,20
+Streamed scene with    9ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/69c4456c9cf9e9048974ad89bb2c142f.0.entities
+[Server] Loaded Chunk 6,20
+Streamed scene with   11ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/02859bb7f289b5344b828443bca3bbb7.0.entities
+[Server] Loaded Chunk 16,19
+Streamed scene with   13ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/2ad20c16f31ec834a99ab851273159dc.0.entities
+[Server] Loaded Chunk 13,19
+Streamed scene with   11ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/74d18dec9f001e74690990c5b3a58673.0.entities
+[Server] Loaded Chunk 10,18
+Streamed scene with   11ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/f486e66146ad6b14da0f1128762bdea9.0.entities
+[Server] Loaded Chunk 8,18
+Streamed scene with   11ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/0e2ed403c9936624394de4e3bdf614ca.0.entities
+[Server] Loaded Chunk 4,18
+Streamed scene with   12ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/9703f861393067744acce835eb5d06a6.0.entities
+[Server] Loaded Chunk 15,17
+Streamed scene with   11ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/4cb629b2044983849b82c92673ff6241.0.entities
+[Server] Loaded Chunk 17,16
+Streamed scene with   13ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/9cd7bd8f2ec8c584db1c67f02a106911.0.entities
+[Server] Loaded Chunk 9,16
+Streamed scene with   11ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/67187f191c1498a4abbbee7a2e1423db.0.entities
+[Server] Loaded Chunk 6,16
+Streamed scene with   13ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/0ffcb79747218cc4ba436947639e2d47.0.entities
+[Server] Loaded Chunk 15,15
+Streamed scene with   16ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/8282cb929e99f6d40b7ef61fb2ef1fde.0.entities
+[Server] Loaded Chunk 12,15
+Streamed scene with   10ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/4a4bb2077467d6b49a0421e25646abc9.0.entities
+[Server] Loaded Chunk 15,13
+Streamed scene with   13ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/b7eec76dc482f474d831a5b8dab5f464.0.entities
+[Server] Loaded Chunk 13,13
+Streamed scene with   15ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/300a10b3b72626145bebf232838caa6b.0.entities
+[Server] Loaded Chunk 9,13
+Streamed scene with   14ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/6acb7f42776a280488cf322cfe2c41a1.0.entities
+[Server] Loaded Chunk 6,12
+Streamed scene with   17ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/e6f764ecf5a86194eb79b2d8ecce280c.0.entities
+[Server] Loaded Chunk 14,11
+Streamed scene with   15ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/51dc6e7b03b5ede40bff1ee22119048b.0.entities
+[Server] Loaded Chunk 11,11
+Streamed scene with   13ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/1ca277e0bf4d98a43a56cef775b49142.0.entities
+[Server] Loaded Chunk 9,10
+Streamed scene with   46ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/246501a0fbb9b7c4da29aa602ea5c4fa.0.entities
+[Server] Loaded Chunk 14,8
+Streamed scene with   17ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/0cd9b7ad49f9a9a459f5db1116a79c0f.0.entities
+[Server] Loaded Chunk 4,22
+Streamed scene with    9ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/2ce7c59433c1e2643ac9e82c5da0db88.0.entities
+[Server] Loaded Chunk 5,22
+Streamed scene with    9ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/bb1415ea81c843e4ba034af72f10c36b.0.entities
+[Server] Loaded Chunk 24,1
+Streamed scene with   11ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/1495eac6e565a964a9ba08d87878f77b.0.entities
+[Server] Loaded Chunk 14,21
+Streamed scene with    8ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/183d5e702836ed748ae813d4757a065a.0.entities
+[Server] Loaded Chunk 10,21
+Streamed scene with    9ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/8009c3c2f451dcc4b8abacf193377c7e.0.entities
+[Server] Loaded Chunk 8,21
+Streamed scene with   10ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/37212c413eefe3945909a2545f9984a3.0.entities
+[Server] Loaded Chunk 6,21
+Streamed scene with   14ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/412d21116f4dfb64a8afa48f2749fe1c.0.entities
+[Server] Loaded Chunk 14,20
+Streamed scene with   11ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/350db1c39517b094baa99a7787a056bb.0.entities
+[Server] Loaded Chunk 12,20
+Streamed scene with   12ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/029844f687657aa4c8e5db4e275c4f91.0.entities
+[Server] Loaded Chunk 13,20
+Streamed scene with   11ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/6ee9860801fd49d42b5ffef67240e971.0.entities
+[Server] Loaded Chunk 11,20
+Streamed scene with   15ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/6446314c69b5d754493de5a14ae3902b.0.entities
+[Server] Loaded Chunk 8,20
+Streamed scene with   10ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/744630a5439ac0940b7c6fc0d21187cc.0.entities
+[Server] Loaded Chunk 9,20
+Streamed scene with   13ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/7674d10acab38ce49b474e90cec74ebf.0.entities
+[Server] Loaded Chunk 7,20
+Streamed scene with   10ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/5bb3f493780edff49bb14e09334ceee4.0.entities
+[Server] Loaded Chunk 4,20
+Streamed scene with   14ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/d65cbf841aad2444095a24600f1bd7f6.0.entities
+[Server] Loaded Chunk 15,19
+Streamed scene with   16ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/d7c10c4925dcdac4788e5e7d2cbc5831.0.entities
+[Server] Loaded Chunk 12,19
+Streamed scene with   14ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/476260f36f2939a42aef1ec3e94d8e15.0.entities
+[Server] Loaded Chunk 14,19
+Streamed scene with   14ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/3efa376eea3b2ce4e8c56e6042cb58e1.0.entities
+[Server] Loaded Chunk 11,19
+Streamed scene with   14ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/2cead2dfbe92e3743a4146633630ac8c.0.entities
+[Server] Loaded Chunk 8,19
+Streamed scene with   15ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/ad4db948f91089948a621826ac9c2bef.0.entities
+[Server] Loaded Chunk 9,19
+Streamed scene with   12ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/2933ef436b9a5964b8bb48801d8eae81.0.entities
+[Server] Loaded Chunk 7,19
+Streamed scene with   17ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/1a9af355f78c70e43a7a83a9d33fca7d.0.entities
+[Server] Loaded Chunk 4,19
+Streamed scene with   17ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/d2af243084018944c8262b43a8e897aa.0.entities
+[Server] Loaded Chunk 5,19
+Streamed scene with    9ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/04feb494f00442b4c81ec75321316203.0.entities
+[Server] Loaded Chunk 17,18
+Streamed scene with    7ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/a261a4925caeb15449d9de1b6b137b78.0.entities
+[Server] Loaded Chunk 18,18
+Streamed scene with   11ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/0699af76f87f5dc43beed1cd0aaef14a.0.entities
+[Server] Loaded Chunk 3,19
+Streamed scene with   16ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/c52fb37929a2af042a280fc3c3400908.0.entities
+[Server] Loaded Chunk 15,18
+Streamed scene with   14ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/f1aa45887bd2f3244a54be879ca9ddf4.0.entities
+[Server] Loaded Chunk 16,18
+Streamed scene with   11ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/f1ca236d4521f8744a72cef5561ddd68.0.entities
+[Server] Loaded Chunk 12,18
+Streamed scene with   12ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/2213d341313eab24eba9a1ab1369deed.0.entities
+[Server] Loaded Chunk 13,18
+Streamed scene with   15ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/9224e352fb3e2de4a851d4d563a23253.0.entities
+[Server] Loaded Chunk 11,18
+Streamed scene with   15ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/979bc1eb8da27534ebecae3e13f9e6c4.0.entities
+[Server] Loaded Chunk 9,18
+Streamed scene with   10ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/cf9f2a01f0aa21f45b29d712351976ff.0.entities
+[Server] Loaded Chunk 5,18
+Streamed scene with   12ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/d6d16109c9507274a9a5ff5fa22c377f.0.entities
+[Server] Loaded Chunk 6,18
+Streamed scene with   12ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/cc75a5684dcec7b4eab954f1779f2244.0.entities
+[Server] Loaded Chunk 7,18
+Streamed scene with   13ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/3d5942862fa3c274fa36c3224f27e136.0.entities
+[Server] Loaded Chunk 18,17
+Streamed scene with   13ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/4939b1e6cef38424eb7429cff38edc4e.0.entities
+[Server] Loaded Chunk 17,17
+Streamed scene with   18ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/2e58ee30f0eafb042ad0f68e6676a303.0.entities
+[Server] Loaded Chunk 16,17
+Streamed scene with   12ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/f3e926d03d837204e92948f303a3af69.0.entities
+[Server] Loaded Chunk 14,17
+Streamed scene with   11ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/b22d2359d6d89ee47b79df873d18309b.0.entities
+[Server] Loaded Chunk 13,17
+Streamed scene with   11ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/d53c71f34e6c99e4da88e5048ddeebbb.0.entities
+[Server] Loaded Chunk 12,17
+Streamed scene with   11ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/d11c48a5bd371924fbdff533cc791b22.0.entities
+[Server] Loaded Chunk 11,17
+Streamed scene with   10ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/2a0e7ef7deda58645b7a8114ea225c57.0.entities
+[Server] Loaded Chunk 10,17
+Streamed scene with   11ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/5b5675b6fbd72104690f7844cc7b9983.0.entities
+[Server] Loaded Chunk 9,17
+Streamed scene with   14ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/81fb587f67a221b4b9d75c385f8e9d63.0.entities
+[Server] Loaded Chunk 7,17
+Streamed scene with   15ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/ca02429a0e02d4e4d83f7ee2b7d0d9c7.0.entities
+[Server] Loaded Chunk 18,16
+Streamed scene with   13ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/08430246543c97044bd481dc79687e95.0.entities
+[Server] Loaded Chunk 15,16
+Streamed scene with   27ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/99d16e55435f70146aa87f52b92eaddb.0.entities
+[Server] Loaded Chunk 14,16
+Spawn Script_Lucie_PotionDropManager_DataServer - Entity(183611:2)
+Streamed scene with   13ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/866dbd21c5b737f4ca89f83e65e89e9e.0.entities
+[Server] Loaded Chunk 13,16
+Streamed scene with   12ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/20cbebceceb1b7b4685da80b72bd6a2c.0.entities
+[Server] Loaded Chunk 12,16
+Streamed scene with   11ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/547bc245331509a41978079c01b83a0c.0.entities
+[Server] Loaded Chunk 11,16
+Streamed scene with   14ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/7a3e53009e61c694a8f7c364bc78af17.0.entities
+[Server] Loaded Chunk 10,16
+Streamed scene with   12ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/8a8f65afccc7c534ebeacce15877790b.0.entities
+[Server] Loaded Chunk 8,16
+Streamed scene with   13ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/54b7431cc8792644a8bc0bc74df76dc0.0.entities
+[Server] Loaded Chunk 7,16
+Streamed scene with   11ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/63f655160d3bf3b4eb567447d7d29e6c.0.entities
+[Server] Loaded Chunk 5,16
+Streamed scene with   16ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/46dfdacabe3533347a2229c35ab3163f.0.entities
+[Server] Loaded Chunk 17,15
+Streamed scene with   12ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/8f029ad3f1a49cb4d922ba39c9842634.0.entities
+[Server] Loaded Chunk 16,15
+Streamed scene with   15ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/0fbff50debacab047a02110fd1efa602.0.entities
+[Server] Loaded Chunk 13,15
+Streamed scene with   12ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/b415b14d94c45bf47961ea6dfd875cdc.0.entities
+[Server] Loaded Chunk 11,15
+Streamed scene with   12ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/850fabbda3a0e114b9130af63c2227ff.0.entities
+[Server] Loaded Chunk 10,15
+Streamed scene with   13ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/94bc1ff1b3e17144cbc7860838bf6c5f.0.entities
+[Server] Loaded Chunk 9,15
+Streamed scene with   14ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/60d3f49d35b449b458b14a86bc33e08a.0.entities
+[Server] Loaded Chunk 8,15
+Streamed scene with   14ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/6ca8b6b6c80aadc4d9d137c9aa0bf903.0.entities
+[Server] Loaded Chunk 6,15
+Streamed scene with   15ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/dc32b732a7079b241b4cda0b0a802de1.0.entities
+[Server] Loaded Chunk 5,15
+Streamed scene with   13ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/1c57d5145f02c9d42a7038429962a4c6.0.entities
+[Server] Loaded Chunk 4,15
+Streamed scene with   13ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/ebb5353de2034c24883753a4c3c187ef.0.entities
+[Server] Loaded Chunk 17,14
+Streamed scene with   13ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/23502868847bd25438b97f66324f3693.0.entities
+[Server] Loaded Chunk 16,14
+Streamed scene with   14ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/ebc0e81445889354493ff1dd7819395d.0.entities
+[Server] Loaded Chunk 15,14
+Streamed scene with   14ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/6bd518e3475c59c4f840c8b7a165bdbd.0.entities
+[Server] Loaded Chunk 14,14
+Streamed scene with   12ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/72320aa56209ffe438f18204e35b4d6e.0.entities
+[Server] Loaded Chunk 13,14
+Streamed scene with   13ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/f7986e7bb9a9eae4d9cfa79927e3e9bc.0.entities
+[Server] Loaded Chunk 12,14
+Streamed scene with   12ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/0bf871d9fb36cdd48ad122804d9b1013.0.entities
+[Server] Loaded Chunk 11,14
+Streamed scene with   13ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/d8d39d9cae64a994e964897b1d11a878.0.entities
+[Server] Loaded Chunk 9,14
+Streamed scene with   13ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/8988d34a4a760e648bb45b73cfc9a65c.0.entities
+[Server] Loaded Chunk 8,14
+Streamed scene with   12ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/b2864e1d7aa17c94bbbdbe763bf49b61.0.entities
+[Server] Loaded Chunk 6,14
+Streamed scene with   13ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/97c0b914358f39740b0172c91e7490ca.0.entities
+[Server] Loaded Chunk 7,14
+Streamed scene with   10ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/31902c41e7682894f9c447957cba74b2.0.entities
+[Server] Loaded Chunk 4,14
+Streamed scene with   13ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/57768327b6c16aa4cad909805524110f.0.entities
+[Server] Loaded Chunk 5,14
+Streamed scene with   12ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/1e8af03ee0ab0744c915e4fcd10e2700.0.entities
+[Server] Loaded Chunk 10,13
+Streamed scene with   13ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/e46aa2103acda034e93ce31c0b25ed38.0.entities
+[Server] Loaded Chunk 6,13
+Streamed scene with   11ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/75b057013a92e184c9aa6bd62f8e6939.0.entities
+[Server] Loaded Chunk 15,12
+Streamed scene with   11ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/d183bd97afec4ba47a046e022c6e2d6f.0.entities
+[Server] Loaded Chunk 16,12
+Streamed scene with   15ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/9d82a1fe1f1923c4f97dabd78cfc5e69.0.entities
+[Server] Loaded Chunk 13,12
+Streamed scene with   13ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/b3918aa903880054992b249d88e94721.0.entities
+[Server] Loaded Chunk 14,12
+Streamed scene with   16ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/b4e0fcd1c502f5b41ae8eb3f13639c46.0.entities
+[Server] Loaded Chunk 11,12
+Streamed scene with   12ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/d10a2bcae0fa8ec44bdb08c5db2aee69.0.entities
+[Server] Loaded Chunk 9,12
+Streamed scene with   11ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/f0b9143094f3a874ca1c0abf916dc8e4.0.entities
+[Server] Loaded Chunk 7,12
+Streamed scene with   13ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/c006a5ce1938498428651ba4e3bacc61.0.entities
+[Server] Loaded Chunk 15,11
+Streamed scene with   11ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/66ed128ef846d964cb87c330243cd418.0.entities
+[Server] Loaded Chunk 12,11
+Streamed scene with   14ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/bc1c781740a9e934fb0d5c193f437f71.0.entities
+[Server] Loaded Chunk 10,11
+Streamed scene with   15ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/e7016e4482dd90d48a07e11fb7b61e1d.0.entities
+[Server] Loaded Chunk 8,11
+Streamed scene with   13ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/2f28cba5d2967df46a339f6320e81ff7.0.entities
+[Server] Loaded Chunk 9,11
+Streamed scene with   15ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/13cb16d70e7b99f46b9d729629a7610e.0.entities
+[Server] Loaded Chunk 13,10
+Streamed scene with   15ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/f25c3a0b1519dcf4ea97a32e97419363.0.entities
+[Server] Loaded Chunk 11,10
+Streamed scene with   15ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/a998f7c4607ba784faf0ff5c29bba6a7.0.entities
+[Server] Loaded Chunk 7,10
+Streamed scene with   19ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/e2cc62feb26335042aa536083bb4dcf0.0.entities
+[Server] Loaded Chunk 8,10
+Streamed scene with   15ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/db1bf1eff344b4740bd20bcd9f3798f2.0.entities
+[Server] Loaded Chunk 11,9
+Streamed scene with   14ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/7409c40e09fe36849a7a4f69b9dee9a4.0.entities
+[Server] Loaded Chunk 12,9
+Streamed scene with   12ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/572f5d77f8d8c99478f666fd7dd9e971.0.entities
+[Server] Loaded Chunk 13,9
+Streamed scene with   17ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/3739a7322d5189b44b6fc10ff2136d13.0.entities
+[Server] Loaded Chunk 9,9
+Streamed scene with   14ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/63ec8da752096ff4fbe860e2a27bd938.0.entities
+[Server] Loaded Chunk 10,9
+Streamed scene with   15ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/961d54a8261f07443a0714460e6ed3ad.0.entities
+[Server] Loaded Chunk 8,9
+Streamed scene with   10ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/0a2fb7d5434b2154fa9f4c1197b74eaf.0.entities
+[Server] Loaded Chunk 7,8
+Streamed scene with   12ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/0a2fb7d5434b2154fa9f4c1197b74eaf.0.entities
+[Server] Loaded Chunk 14,7
+Streamed scene with   12ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/c5d45555f3d519943a0e80adc9ff4f51.0.entities
+[Server] Loaded Chunk 20,2
+Streamed scene with    9ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/c5d45555f3d519943a0e80adc9ff4f51.0.entities
+[Server] Loaded Chunk 18,2
+Streamed scene with    8ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/c5d45555f3d519943a0e80adc9ff4f51.0.entities
+[Server] Loaded Chunk 16,2
+Streamed scene with    8ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/c5d45555f3d519943a0e80adc9ff4f51.0.entities
+[Server] Loaded Chunk 14,2
+Streamed scene with    9ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/c5d45555f3d519943a0e80adc9ff4f51.0.entities
+[Server] Loaded Chunk 12,2
+Streamed scene with   13ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/c5d45555f3d519943a0e80adc9ff4f51.0.entities
+[Server] Loaded Chunk 10,2
+Streamed scene with   13ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/a32a1d347a4b31d4c90744a4ede6acc5.0.entities
+[Server] Loaded Chunk 10,1
+Streamed scene with   13ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/b629f1d8ee7e02846966ad4936c6fe1c.0.entities
+[Server] Loaded Chunk 15,20
+Streamed scene with   17ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/da2b4c2abad58f34f8a9f131b869bb2c.0.entities
+[Server] Loaded Chunk 10,19
+Streamed scene with   12ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/c337f7631ce849c46aa134e5c89e5904.0.entities
+[Server] Loaded Chunk 19,16
+Streamed scene with   12ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/815b649b859e0f344a9606208de15ed9.0.entities
+[Server] Loaded Chunk 7,15
+Streamed scene with   14ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/33e116ddbdc3d3f43811112b11dc2b52.0.entities
+[Server] Loaded Chunk 10,14
+Streamed scene with   11ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/f3e9e47d7d0e7934da133472526cf0cd.0.entities
+[Server] Loaded Chunk 13,11
+Streamed scene with   19ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/7603da2c0ab76ce42bbb76d6973ab774.0.entities
+[Server] Loaded Chunk 15,10
+Streamed scene with   16ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/932bb97227381554dadbdb61e0d574f0.0.entities
+[Server] Loaded Chunk 12,10
+Streamed scene with   13ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/018be26374d7ad94d99c57e637f5cc42.0.entities
+[Server] Loaded Chunk 10,10
+Streamed scene with   12ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/2b0aa0e451049674fa790cced730bbcc.0.entities
+[Server] Loaded Chunk 6,10
+Streamed scene with    8ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/1c35ac5c585935c4cbb47e9b8d285c35.0.entities
+[Server] Loaded Chunk 24,2
+Streamed scene with   20ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/a32a1d347a4b31d4c90744a4ede6acc5.0.entities
+[Server] Loaded Chunk 20,1
+Streamed scene with   15ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/a32a1d347a4b31d4c90744a4ede6acc5.0.entities
+[Server] Loaded Chunk 18,1
+Streamed scene with   13ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/a32a1d347a4b31d4c90744a4ede6acc5.0.entities
+[Server] Loaded Chunk 16,1
+Streamed scene with   10ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/a32a1d347a4b31d4c90744a4ede6acc5.0.entities
+[Server] Loaded Chunk 14,1
+Streamed scene with   13ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/a32a1d347a4b31d4c90744a4ede6acc5.0.entities
+[Server] Loaded Chunk 12,1
+Streamed scene with    9ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/97fce44cfe63ddf40ae54dd6696ef09e.0.entities
+[Server] Loaded Chunk 12,21
+Streamed scene with   12ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/f508b19e57277a546b8d838d03301fe7.0.entities
+[Server] Loaded Chunk 13,21
+Streamed scene with   10ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/3942e8aad1d9f164484fd7c16cfcfc1d.0.entities
+[Server] Loaded Chunk 11,21
+Streamed scene with   12ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/cd0102376e0df9141a90ac6dcb400ca6.0.entities
+[Server] Loaded Chunk 7,21
+Streamed scene with    8ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/e3013bf393f633f42aeb359b82384b57.0.entities
+[Server] Loaded Chunk 9,21
+Streamed scene with   12ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/c918ebcafeb9d64418fe120b947ddc13.0.entities
+[Server] Loaded Chunk 5,21
+Streamed scene with   13ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/e54a69ffe7b182a449c99249457fbbfa.0.entities
+[Server] Loaded Chunk 16,20
+Streamed scene with   12ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/0cd9b7ad49f9a9a459f5db1116a79c0f.0.entities
+[Server] Loaded Chunk 3,21
+Streamed scene with    6ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/0cd9b7ad49f9a9a459f5db1116a79c0f.0.entities
+[Server] Loaded Chunk 4,21
+Streamed scene with    6ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/0cd9b7ad49f9a9a459f5db1116a79c0f.0.entities
+[Server] Loaded Chunk 3,20
+Streamed scene with   12ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/4597a0b36642baf488f8d8a314a3abbf.0.entities
+[Server] Loaded Chunk 6,19
+Streamed scene with   13ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/4a128f709dc5a604bb6cd25bbaf7e91c.0.entities
+[Server] Loaded Chunk 14,18
+Streamed scene with   12ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/db8503c537e012a428923b38e08d5475.0.entities
+[Server] Loaded Chunk 3,18
+Streamed scene with   14ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/47c1e305fdffec34d9c4dfdbd9b75a23.0.entities
+[Server] Loaded Chunk 8,17
+Streamed scene with   11ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/a24097bd09125954f9c0d4c23a578185.0.entities
+[Server] Loaded Chunk 6,17
+Streamed scene with   18ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/c6d34432693f24046ae5916650cc70ef.0.entities
+[Server] Loaded Chunk 5,17
+Streamed scene with    8ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/ceef3ebf1383b814db17794e71bb1332.0.entities
+[Server] Loaded Chunk 4,17
+Streamed scene with   11ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/e23878794ad006e4d91c43b795ccdf0a.0.entities
+[Server] Loaded Chunk 3,17
+Streamed scene with   12ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/7d04c45940098e94ca63b6dadb8fb5d0.0.entities
+[Server] Loaded Chunk 16,16
+Streamed scene with   11ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/2075b60fd7945c340ae29d0f813173a1.0.entities
+[Server] Loaded Chunk 4,16
+Streamed scene with   11ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/6bd24955574d58449beebfd189c1f316.0.entities
+[Server] Loaded Chunk 18,15
+Streamed scene with   12ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/a18bb66913b043a429432c99bf88a792.0.entities
+[Server] Loaded Chunk 14,15
+Streamed scene with   13ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/969df75726d785141aac4e3eafc10f58.0.entities
+[Server] Loaded Chunk 3,15
+Streamed scene with    9ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/166f8e7e5d582b349ae4bf854c799c1e.0.entities
+[Server] Loaded Chunk 18,14
+Streamed scene with   29ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/969df75726d785141aac4e3eafc10f58.0.entities
+[Server] Loaded Chunk 3,14
+Streamed scene with   10ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/1f3daaeb74b19e14f9b56fca0f1f57f8.0.entities
+[Server] Loaded Chunk 16,13
+Streamed scene with   11ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/166f8e7e5d582b349ae4bf854c799c1e.0.entities
+[Server] Loaded Chunk 17,13
+Streamed scene with   11ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/6c50437c10040a449a8d7211763a840d.0.entities
+[Server] Loaded Chunk 14,13
+Streamed scene with   12ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/ce6660cca1c5e8e46a9295c0bd5f83b8.0.entities
+[Server] Loaded Chunk 12,13
+Streamed scene with   14ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/65ebd5dc8069d9e4ca0d9f2cb14b61cc.0.entities
+[Server] Loaded Chunk 11,13
+Streamed scene with   10ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/4e0141c01fc58334aa641d7325cb82ad.0.entities
+[Server] Loaded Chunk 8,13
+Streamed scene with   12ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/3756338433cce094daf73fad2456a943.0.entities
+[Server] Loaded Chunk 7,13
+Streamed scene with   11ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/eb98dfa1d0f03614b8701815acc42dc5.0.entities
+[Server] Loaded Chunk 4,13
+Streamed scene with    8ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/803a66b8863b65a4b8aa02d809ef2961.0.entities
+[Server] Loaded Chunk 5,13
+Streamed scene with   10ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/969df75726d785141aac4e3eafc10f58.0.entities
+[Server] Loaded Chunk 3,13
+Streamed scene with   11ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/8459f04ca1b308b4f84f83c5fcb558f3.0.entities
+[Server] Loaded Chunk 12,12
+Streamed scene with   12ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/efae7737e5f4ecb49b515d0b78380b08.0.entities
+[Server] Loaded Chunk 10,12
+Streamed scene with   11ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/ed0419b22d53ffc4bb80e7bba27082a6.0.entities
+[Server] Loaded Chunk 8,12
+Streamed scene with    9ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/67c6a4f74fd0eac4094adb77211b329b.0.entities
+[Server] Loaded Chunk 16,11
+Streamed scene with    6ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/3b35dfc3f24e9bb45b6da67f70a87fbd.0.entities
+[Server] Loaded Chunk 5,12
+Streamed scene with   10ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/3b35dfc3f24e9bb45b6da67f70a87fbd.0.entities
+[Server] Loaded Chunk 5,11
+Streamed scene with   10ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/9cabd2dd1cf483248ba5c374ce25a01b.0.entities
+[Server] Loaded Chunk 6,11
+Streamed scene with   13ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/dd9f9625193304d4e8aa818da04393fd.0.entities
+[Server] Loaded Chunk 7,11
+Streamed scene with    9ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/3b35dfc3f24e9bb45b6da67f70a87fbd.0.entities
+[Server] Loaded Chunk 16,10
+Streamed scene with   10ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/f407776a73ac0f941ac82ca0898d23b3.0.entities
+[Server] Loaded Chunk 14,10
+SteamNetworking - SteamNetConnections.ConnectionUpdate: k_ESteamNetworkingConnectionState_ClosedByPeer, 3048140309, 131073
+Streamed scene with  368ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/3b35dfc3f24e9bb45b6da67f70a87fbd.0.entities
+[Server] Loaded Chunk 16,9
+SteamServerTransport - Update 3048140309 - k_ESteamNetworkingConnectionState_ClosedByPeer
+SteamNetworking - SteamNetConnections.ConnectionUpdate: k_ESteamNetworkingConnectionState_None, 3048140309, 131073
+SteamServerTransport - Update 3048140309 - k_ESteamNetworkingConnectionState_None
+Streamed scene with    7ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/3b35dfc3f24e9bb45b6da67f70a87fbd.0.entities
+[Server] Loaded Chunk 5,10
+Streamed scene with   11ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/c6f842b31ef5c68438513e1ae93b16e9.0.entities
+[Server] Loaded Chunk 14,9
+Streamed scene with   13ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/3b35dfc3f24e9bb45b6da67f70a87fbd.0.entities
+[Server] Loaded Chunk 15,9
+Streamed scene with   10ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/bb682846556abae47aea289e7a73fe33.0.entities
+[Server] Loaded Chunk 7,9
+Streamed scene with    9ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/3b35dfc3f24e9bb45b6da67f70a87fbd.0.entities
+[Server] Loaded Chunk 6,9
+Streamed scene with    7ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/3b35dfc3f24e9bb45b6da67f70a87fbd.0.entities
+[Server] Loaded Chunk 15,8
+Streamed scene with   10ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/5689b37fb2a722548923851c2267340e.0.entities
+[Server] Loaded Chunk 13,8
+Streamed scene with   13ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/b13e05079fb92c142b38b178720b3b94.0.entities
+[Server] Loaded Chunk 12,8
+Streamed scene with   11ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/d0bbfaf22bd883e4893b0ac0b85c9ff3.0.entities
+[Server] Loaded Chunk 11,8
+Streamed scene with   11ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/7bdbb53c239283d41ba2e80c2cfc88d1.0.entities
+[Server] Loaded Chunk 10,8
+Streamed scene with   12ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/2924653d35377074fb8b64f8e6ce332d.0.entities
+[Server] Loaded Chunk 9,8
+Streamed scene with   14ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/3b35dfc3f24e9bb45b6da67f70a87fbd.0.entities
+[Server] Loaded Chunk 6,8
+Streamed scene with   10ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/3b35dfc3f24e9bb45b6da67f70a87fbd.0.entities
+[Server] Loaded Chunk 15,7
+Streamed scene with   10ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/3b35dfc3f24e9bb45b6da67f70a87fbd.0.entities
+[Server] Loaded Chunk 13,7
+Streamed scene with    9ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/3b35dfc3f24e9bb45b6da67f70a87fbd.0.entities
+[Server] Loaded Chunk 12,7
+Streamed scene with   11ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/3b35dfc3f24e9bb45b6da67f70a87fbd.0.entities
+[Server] Loaded Chunk 11,7
+Streamed scene with    6ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/3b35dfc3f24e9bb45b6da67f70a87fbd.0.entities
+[Server] Loaded Chunk 10,7
+Streamed scene with    6ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/3b35dfc3f24e9bb45b6da67f70a87fbd.0.entities
+[Server] Loaded Chunk 9,7
+Streamed scene with   10ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/3b35dfc3f24e9bb45b6da67f70a87fbd.0.entities
+[Server] Loaded Chunk 8,7
+Streamed scene with   10ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/3b35dfc3f24e9bb45b6da67f70a87fbd.0.entities
+[Server] Loaded Chunk 7,7
+Streamed scene with    9ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/3b35dfc3f24e9bb45b6da67f70a87fbd.0.entities
+[Server] Loaded Chunk 6,7
+Streamed scene with    9ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/3b35dfc3f24e9bb45b6da67f70a87fbd.0.entities
+[Server] Loaded Chunk 14,6
+Streamed scene with   13ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/3b35dfc3f24e9bb45b6da67f70a87fbd.0.entities
+[Server] Loaded Chunk 13,6
+Streamed scene with   10ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/5dd2d5dbc5240404ab98da395aa11c1f.0.entities
+[Server] Loaded Chunk 19,2
+Streamed scene with    7ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/5dd2d5dbc5240404ab98da395aa11c1f.0.entities
+[Server] Loaded Chunk 17,2
+Streamed scene with    6ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/5dd2d5dbc5240404ab98da395aa11c1f.0.entities
+[Server] Loaded Chunk 15,2
+Streamed scene with    7ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/5dd2d5dbc5240404ab98da395aa11c1f.0.entities
+[Server] Loaded Chunk 13,2
+Streamed scene with    6ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/5dd2d5dbc5240404ab98da395aa11c1f.0.entities
+[Server] Loaded Chunk 11,2
+Streamed scene with   11ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/5dd2d5dbc5240404ab98da395aa11c1f.0.entities
+[Server] Loaded Chunk 9,2
+Streamed scene with   10ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/a8f9b2d179bbbf246963926a0f537def.0.entities
+[Server] Loaded Chunk 7,2
+Streamed scene with   11ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/3b35dfc3f24e9bb45b6da67f70a87fbd.0.entities
+[Server] Loaded Chunk 19,1
+Streamed scene with    6ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/3b35dfc3f24e9bb45b6da67f70a87fbd.0.entities
+[Server] Loaded Chunk 17,1
+Streamed scene with   10ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/3b35dfc3f24e9bb45b6da67f70a87fbd.0.entities
+[Server] Loaded Chunk 15,1
+Streamed scene with   10ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/3b35dfc3f24e9bb45b6da67f70a87fbd.0.entities
+[Server] Loaded Chunk 13,1
+Streamed scene with   11ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/3b35dfc3f24e9bb45b6da67f70a87fbd.0.entities
+[Server] Loaded Chunk 11,1
+Streamed scene with    8ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/3b35dfc3f24e9bb45b6da67f70a87fbd.0.entities
+[Server] Loaded Chunk 9,1
+Streamed scene with    9ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/3b35dfc3f24e9bb45b6da67f70a87fbd.0.entities
+[Server] Loaded Chunk 20,0
+Streamed scene with   10ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/3b35dfc3f24e9bb45b6da67f70a87fbd.0.entities
+[Server] Loaded Chunk 18,0
+Streamed scene with    7ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/3b35dfc3f24e9bb45b6da67f70a87fbd.0.entities
+[Server] Loaded Chunk 16,0
+Streamed scene with   10ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/3b35dfc3f24e9bb45b6da67f70a87fbd.0.entities
+[Server] Loaded Chunk 14,0
+Streamed scene with    6ms latency from Z:/mnt/vrising/server/VRisingServer_Data/StreamingAssets/EntityScenes/3b35dfc3f24e9bb45b6da67f70a87fbd.0.entities
+[Server] Loaded Chunk 12,0
+[Server] Startup Completed - Disabling Scene Loading Systems
+[Server] Shutting down Asynchronous Streaming
+PlatformSystemBase - BeginAuthSession for SteamID: 76561198997034467 Result: k_EBeginAuthSessionResultOK
+EOS.Session - Entering RegisterUser!
+NetEndPoint '{Steam 1216859707}' connection was approved. approvedUserIndex: 0 HasLocalCharacter: False Hail Message Size: 380 Version: 24 PlatformId: 76561198997034467 UserIndex: 0 ShouldCreateCharacter: True IsAdmin: False Length: 380
+PlatformSystemBase - BeginAuthSession for SteamID: 76561198130843390 Result: k_EBeginAuthSessionResultOK
+EOS.Session - Entering RegisterUser!
+NetEndPoint '{Steam 62402879}' connection was approved. approvedUserIndex: 1 HasLocalCharacter: False Hail Message Size: 380 Version: 24 PlatformId: 76561198130843390 UserIndex: 1 ShouldCreateCharacter: True IsAdmin: False Length: 380
+Registered WarEventMapNode in Chunk: 16,14
+Registered WarEventMapNode in Chunk: 16,15
+Registered WarEventMapNode in Chunk: 15,16
+Registered WarEventMapNode in Chunk: 18,16
+Registered WarEventMapNode in Chunk: 16,17
+Registered WarEventMapNode in Chunk: 17,17
+Registered WarEventMapNode in Chunk: 15,18
+EOS user registered to session successfully!
+EOS user registered to session successfully!
+PlatformSystemBase - OnValidateAuthTicketResponse for SteamID: 76561198997034467, Response: k_EAuthSessionResponseOK
+PlatformSystemBase - UserHasLicenseForApp for SteamID: 76561198997034467, Owner: 76561198997034467, Result: k_EUserHasLicenseResultHasLicense, UserContentFlags: DLC_DraculasRelics_EA, DLC_FoundersPack_EA, Halloween2022, DLC_Gloomrot, DLC_ProjectK, DLC_Oakveil
+PlatformSystemBase - OnValidateAuthTicketResponse for SteamID: 76561198130843390, Response: k_EAuthSessionResponseOK
+PlatformSystemBase - UserHasLicenseForApp for SteamID: 76561198130843390, Owner: 76561198130843390, Result: k_EUserHasLicenseResultHasLicense, UserContentFlags: None
+User '{Steam 62402879}' '76561198130843390', approvedUserIndex: 1, Character: '' connected as ID '1,1', Entity '559315,2'.
+'ProjectM.RepairVBloodProgressionSystem' creates a Lookup object (e.g. ComponentLookup) during OnUpdate. Please create this object in OnCreate instead and use type `_MyLookup.Update(ref systemState);` in OnUpdate to keep it up to date instead. This is significantly faster.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Unity.Entities.SystemState:CheckOnUpdate_Lookup()
+Unity.Entities.SystemState:GetBufferLookup(Boolean)
+ProjectM.UpdateUnlockedJobData:Create(SystemState&, PrefabLookupMap, ProgressionDependencyData)
+ProjectM.UpdateUnlockedJobData:Create(SystemState&, PrefabLookupMap, ProgressionDependencySystem)
+ProjectM.RepairVBloodProgressionSystem:OnUpdate(SystemState&)
+Unity.Entities.WorldUnmanagedImpl:UpdateSystem(SystemHandle)
+Unity.Entities.ComponentSystemGroup:UpdateAllSystems()
+Unity.Entities.SystemBase:Update()
+Unity.Entities.ComponentSystemGroup:UpdateAllSystems()
+Unity.Entities.TimeableComponentSystemGroup:OnUpdate()
+Unity.Entities.SystemBase:Update()
+
+EOS.Session - Entering ModifySessionAsync!
+src\steamnetworkingsockets\clientlib\steamnetworkingsockets_lowlevel.cpp (825) : Assertion Failed: GetBestRoute2 failed with result 50 for address '104.205.153.130:0'
+src\steamnetworkingsockets\clientlib\steamnetworkingsockets_lowlevel.cpp (825) : Assertion Failed: GetBestRoute2 failed with result 50 for address '104.205.153.130:0'
+SteamNetworking - SteamNetConnections.ConnectionUpdate: k_ESteamNetworkingConnectionState_Connecting, 3753458409, 131073
+SteamServerTransport - Update 3753458409 - k_ESteamNetworkingConnectionState_Connecting
+SteamNetworking - SteamNetConnections.ConnectionUpdate: k_ESteamNetworkingConnectionState_Connected, 3753458409, 131073
+SteamServerTransport - Update 3753458409 - k_ESteamNetworkingConnectionState_Connected
+PlatformSystemBase - BeginAuthSession for SteamID: 76561198141996810 Result: k_EBeginAuthSessionResultOK
+EOS.Session - Entering RegisterUser!
+NetEndPoint '{Steam 3753458409}' connection was approved. approvedUserIndex: 2 HasLocalCharacter: False Hail Message Size: 380 Version: 24 PlatformId: 76561198141996810 UserIndex: 2 ShouldCreateCharacter: True IsAdmin: False Length: 380
+EOS user registered to session successfully!
+PlatformSystemBase - OnValidateAuthTicketResponse for SteamID: 76561198141996810, Response: k_EAuthSessionResponseOK
+PlatformSystemBase - UserHasLicenseForApp for SteamID: 76561198141996810, Owner: 76561198141996810, Result: k_EUserHasLicenseResultHasLicense, UserContentFlags: None
+User '{Steam 3753458409}' '76561198141996810', approvedUserIndex: 2, Character: '' connected as ID '2,1', Entity '559339,4'.
+EOS.Session - Entering ModifySessionAsync!
+User '{Steam 1216859707}' '76561198997034467', approvedUserIndex: 0, Character: '' connected as ID '0,1', Entity '559311,3'.
+EOS.Session - Entering ModifySessionAsync!
+CreateCharacterEvent Created new character for Noctis
+CreateCharacterEvent Spawning the character
+Spawned character at chunk '4,0' for user 76561198130843390 (Character: Noctis) entity '559315,2' hasCastleSpawn: False netherSpawnPositionEntity: 31941 spawnLocation: -2451:5.002:-3170 firstTimeSpawn: True
+User 76561198130843390 (Character: Noctis) has been hidden due to waiting for content!
+User 76561198130843390 (Character: Noctis) has begun its spawn fadeout!
+PlatformSystemBase - OnValidateAuthTicketResponse for SteamID: 76561198997034467, Response: k_EAuthSessionResponseAuthTicketCanceled
+NetConnection '{Steam 1216859707}' was disconnected. Reason: 'AuthTicketCanceled' PlatformId: 76561198997034467
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+ProjectM.ServerBootstrapSystem:HandleAuthSessionResponses()
+ProjectM.ServerBootstrapSystem:OnUpdate()
+Unity.Entities.SystemBase:Update()
+Unity.Entities.ComponentSystemGroup:UpdateAllSystems()
+Unity.Entities.SystemBase:Update()
+Unity.Entities.ComponentSystemGroup:UpdateAllSystems()
+Unity.Entities.SystemBase:Update()
+Unity.Entities.ComponentSystemGroup:UpdateAllSystems()
+Unity.Entities.TimeableComponentSystemGroup:OnUpdate()
+Unity.Entities.SystemBase:Update()
+
+User '{Steam 1216859707}' disconnected. approvedUserIndex: 0 Reason: AuthSessionCancelled 
+PlatformSystemBase - EndAuthSession platformId: 76561198997034467
+EOS.Session - Entering UnregisterUser!
+SteamNetworking - SteamNetConnections.ConnectionUpdate: k_ESteamNetworkingConnectionState_None, 1216859707, 131073
+SteamServerTransport - Update 1216859707 - k_ESteamNetworkingConnectionState_None
+EOS user unregistered from session successfully!
+EOS.Session - Entering ModifySessionAsync!
+CreateCharacterEvent Created new character for Flutter
+CreateCharacterEvent Spawning the character
+Spawned character at chunk '5,0' for user 76561198141996810 (Character: Flutter) entity '559339,4' hasCastleSpawn: False netherSpawnPositionEntity: 27298 spawnLocation: -2293.5:5.002:-3169 firstTimeSpawn: True
+User 76561198141996810 (Character: Flutter) has been hidden due to waiting for content!
+User 76561198141996810 (Character: Flutter) has begun its spawn fadeout!
+Admin Auth request from User: 76561198141996810, Character: Flutter
+StartGraveyardExitWaypoint Index: (Normal 525:1), Points: 0
+StartGraveyardExitWaypoint Index: (Normal 1382:1), Points: 0
+Not sending any recommendation! TotalPoints: 0, AllSame: True, RecommendedSpawnLocation: (Normal 525:1)
+SteamNetworking - SteamNetConnections.ConnectionUpdate: k_ESteamNetworkingConnectionState_ClosedByPeer, 3753458409, 131073
+SteamServerTransport - Update 3753458409 - k_ESteamNetworkingConnectionState_ClosedByPeer
+User '{Steam 3753458409}' disconnected. approvedUserIndex: 2 Reason: LeftGame k_ESteamNetworkingConnectionState_ClosedByPeer
+PlatformSystemBase - EndAuthSession platformId: 76561198141996810
+EOS.Session - Entering UnregisterUser!
+SteamNetworking - SteamNetConnections.ConnectionUpdate: k_ESteamNetworkingConnectionState_None, 3753458409, 131073
+SteamServerTransport - Update 3753458409 - k_ESteamNetworkingConnectionState_None
+EOS user unregistered from session successfully!
+EOS.Session - Entering ModifySessionAsync!
+src\steamnetworkingsockets\clientlib\steamnetworkingsockets_lowlevel.cpp (825) : Assertion Failed: GetBestRoute2 failed with result 50 for address '104.205.153.130:0'
+src\steamnetworkingsockets\clientlib\steamnetworkingsockets_lowlevel.cpp (825) : Assertion Failed: GetBestRoute2 failed with result 50 for address '104.205.153.130:0'
+SteamNetworking - SteamNetConnections.ConnectionUpdate: k_ESteamNetworkingConnectionState_Connecting, 1181958927, 131073
+SteamServerTransport - Update 1181958927 - k_ESteamNetworkingConnectionState_Connecting
+SteamNetworking - SteamNetConnections.ConnectionUpdate: k_ESteamNetworkingConnectionState_Connected, 1181958927, 131073
+SteamServerTransport - Update 1181958927 - k_ESteamNetworkingConnectionState_Connected
+PlatformSystemBase - BeginAuthSession for SteamID: 76561198141996810 Result: k_EBeginAuthSessionResultOK
+EOS.Session - Entering RegisterUser!
+NetEndPoint '{Steam 1181958927}' reconnect was approved. approvedUserIndex: 2 HasLocalCharacter: True Hail Message Size: 380 Version: 24 PlatformId: 76561198141996810 UserIndex: 2 ShouldCreateCharacter: False IsAdmin: False Length: 380
+EOS user registered to session successfully!
+PlatformSystemBase - OnValidateAuthTicketResponse for SteamID: 76561198141996810, Response: k_EAuthSessionResponseOK
+PlatformSystemBase - UserHasLicenseForApp for SteamID: 76561198141996810, Owner: 76561198141996810, Result: k_EUserHasLicenseResultHasLicense, UserContentFlags: None
+User '{Steam 1181958927}' '76561198141996810', approvedUserIndex: 2, Character: 'Flutter' connected as ID '2,1', Entity '559339,4'.
+EOS.Session - Entering ModifySessionAsync!
+Triggering AutoSave 0!
+Resized NetBuffer from length: 4194304 to: 6291456 (additional number of bits: 7680)
+Resized NetBuffer from length: 4194304 to: 6291456 (additional number of bits: 4096)
+Resized NetBuffer from length: 6291456 to: 9437184 (additional number of bits: 7680)
+Resized NetBuffer from length: 6291456 to: 9437184 (additional number of bits: 4096)
+Resized NetBuffer from length: 9437184 to: 14155776 (additional number of bits: 4096)
+Resized NetBuffer from length: 14155776 to: 21233664 (additional number of bits: 32)
+PersistenceV2 - Finished Saving to 'Z:\mnt\vrising\persistentdata\Saves\v4\world1\AutoSave_0.save.gz'. Total Persistent ChunkCount 2827. Total Save Size: 7223180 Total Uncompressed Save Size: 34452815 Bytes System Data Size: 48184 Bytes World Data Size: 4194313 Bytes Header Data Size: 819670 Bytes, (Job 0 ArchetypeCount 24, ChunkCount 1879), (Job 1 ArchetypeCount 58, ChunkCount 720), (Job 2 ArchetypeCount 201, ChunkCount 228), (Job 3 ArchetypeCount 0, ChunkCount 0)
+src\steamnetworkingsockets\clientlib\steamnetworkingsockets_lowlevel.cpp (825) : Assertion Failed: GetBestRoute2 failed with result 50 for address '104.205.153.130:0'
+src\steamnetworkingsockets\clientlib\steamnetworkingsockets_lowlevel.cpp (825) : Assertion Failed: GetBestRoute2 failed with result 50 for address '75.159.108.2:0'
+SteamNetworking - SteamNetConnections.ConnectionUpdate: k_ESteamNetworkingConnectionState_Connecting, 2381859911, 131073
+SteamServerTransport - Update 2381859911 - k_ESteamNetworkingConnectionState_Connecting
+SteamNetworking - SteamNetConnections.ConnectionUpdate: k_ESteamNetworkingConnectionState_Connected, 2381859911, 131073
+SteamServerTransport - Update 2381859911 - k_ESteamNetworkingConnectionState_Connected
+PlatformSystemBase - BeginAuthSession for SteamID: 76561198997034467 Result: k_EBeginAuthSessionResultOK
+EOS.Session - Entering RegisterUser!
+NetEndPoint '{Steam 2381859911}' reconnect was approved. approvedUserIndex: 0 HasLocalCharacter: False Hail Message Size: 380 Version: 24 PlatformId: 76561198997034467 UserIndex: 0 ShouldCreateCharacter: True IsAdmin: False Length: 380
+EOS user registered to session successfully!
+PlatformSystemBase - OnValidateAuthTicketResponse for SteamID: 76561198997034467, Response: k_EAuthSessionResponseOK
+PlatformSystemBase - UserHasLicenseForApp for SteamID: 76561198997034467, Owner: 76561198997034467, Result: k_EUserHasLicenseResultHasLicense, UserContentFlags: DLC_DraculasRelics_EA, DLC_FoundersPack_EA, Halloween2022, DLC_Gloomrot, DLC_ProjectK, DLC_Oakveil
+User '{Steam 2381859911}' '76561198997034467', approvedUserIndex: 0, Character: '' connected as ID '0,1', Entity '559311,3'.
+EOS.Session - Entering ModifySessionAsync!
+SteamNetworking - SteamNetConnections.ConnectionUpdate: k_ESteamNetworkingConnectionState_ClosedByPeer, 2381859911, 131073
+SteamServerTransport - Update 2381859911 - k_ESteamNetworkingConnectionState_ClosedByPeer
+User '{Steam 2381859911}' disconnected. approvedUserIndex: 0 Reason: LeftGame k_ESteamNetworkingConnectionState_ClosedByPeer
+PlatformSystemBase - EndAuthSession platformId: 76561198997034467
+EOS.Session - Entering UnregisterUser!
+SteamNetworking - SteamNetConnections.ConnectionUpdate: k_ESteamNetworkingConnectionState_None, 2381859911, 131073
+SteamServerTransport - Update 2381859911 - k_ESteamNetworkingConnectionState_None
+EOS user unregistered from session successfully!
+EOS.Session - Entering ModifySessionAsync!
+SteamNetworking - SteamNetConnections.ConnectionUpdate: k_ESteamNetworkingConnectionState_ClosedByPeer, 1181958927, 131073
+SteamServerTransport - Update 1181958927 - k_ESteamNetworkingConnectionState_ClosedByPeer
+User '{Steam 1181958927}' disconnected. approvedUserIndex: 2 Reason: LeftGame k_ESteamNetworkingConnectionState_ClosedByPeer
+PlatformSystemBase - EndAuthSession platformId: 76561198141996810
+EOS.Session - Entering UnregisterUser!
+SteamNetworking - SteamNetConnections.ConnectionUpdate: k_ESteamNetworkingConnectionState_None, 1181958927, 131073
+SteamServerTransport - Update 1181958927 - k_ESteamNetworkingConnectionState_None
+EOS user unregistered from session successfully!
+EOS.Session - Entering ModifySessionAsync!
