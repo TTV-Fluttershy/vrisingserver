@@ -1,0 +1,22 @@
+services:
+  vrising:
+    image: trueosiris/vrising
+    environment:
+      - TZ=Europe/Paris
+      - SERVERNAME=[NA-C] BOOSTED 24/7 |PVP|WEEKEND RAIDS NOON TO MIDNIGHT|2xMagic|2xLoot|Normal|1.1|May3 
+    volumes:
+      - type: bind
+        source: ./server
+        target: /mnt/vrising/server
+        bind:
+          create_host_path: true
+      - type: bind
+        source: ./persistentdata
+        target: /mnt/vrising/persistentdata
+        bind:
+          create_host_path: true
+    ports:
+      - '9876:9876/udp'
+      - '9877:9877/udp'
+    restart: unless-stopped
+    network_mode: bridge
