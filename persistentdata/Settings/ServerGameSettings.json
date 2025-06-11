@@ -85,7 +85,7 @@
   "VampireStatModifiers": {
     "MaxHealthModifier": 1.5,
     "PhysicalPowerModifier": 1.2,
-    "SpellPowerModifier": 6.0,
+    "SpellPowerModifier": 5.0,
     "ResourcePowerModifier": 1.0,
     "SiegePowerModifier": 1.5,
     "DamageReceivedModifier": 1.0,
@@ -97,8 +97,8 @@
     "LevelIncrease": 0
   },
   "UnitStatModifiers_VBlood": {
-    "MaxHealthModifier": 1.5,
-    "PowerModifier": 6.0,
+    "MaxHealthModifier": 2.0,
+    "PowerModifier": 5.0,
     "LevelIncrease": 0
   },
   "EquipmentStatModifiers_Global": {
