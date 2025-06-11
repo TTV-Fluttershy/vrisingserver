@@ -1,7 +1,7 @@
 ﻿{
   "GameDifficulty": "Normal",
   "GameModeType": "PvP",
-  "CastleDamageMode": "Never",
+  "CastleDamageMode": "TimeRestricted",
   "SiegeWeaponHealth": "VeryHigh",
   "PlayerDamageMode": "Always",
   "CastleHeartDamageMode": "CanBeDestroyedByPlayers",
@@ -85,7 +85,7 @@
   "VampireStatModifiers": {
     "MaxHealthModifier": 1.5,
     "PhysicalPowerModifier": 1.2,
-    "SpellPowerModifier": 3.0,
+    "SpellPowerModifier": 6.0,
     "ResourcePowerModifier": 1.0,
     "SiegePowerModifier": 1.5,
     "DamageReceivedModifier": 1.0,
@@ -98,7 +98,7 @@
   },
   "UnitStatModifiers_VBlood": {
     "MaxHealthModifier": 1.5,
-    "PowerModifier": 2.0,
+    "PowerModifier": 6.0,
     "LevelIncrease": 0
   },
   "EquipmentStatModifiers_Global": {
